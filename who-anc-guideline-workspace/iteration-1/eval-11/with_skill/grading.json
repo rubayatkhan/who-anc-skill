@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Setting identified as malaria-endemic",
+      "passed": true,
+      "evidence": "Patient Summary states: 'Setting: Malaria-endemic (Siaya County, western Kenya — holoendemic, high Plasmodium falciparum transmission)'"
+    },
+    {
+      "text": "IPTp-SP first dose recommended (GA 22 weeks, eligible since >13 weeks)",
+      "passed": true,
+      "evidence": "Malaria Prevention section states: 'IPTp-SP: DOSE 1 — GIVE TODAY' and 'Patient is 22 weeks GA (well past 13-week threshold; was ineligible at Contact 1 at 10 weeks due to first trimester contraindication)'"
+    },
+    {
+      "text": "IPTp-SP specified as directly observed therapy (DOT) at the clinic",
+      "passed": true,
+      "evidence": "States: 'Administration: **Directly Observed Therapy (DOT)** — administer at facility with clean drinking water under nurse-midwife observation'"
+    },
+    {
+      "text": "Correct dose mentioned: sulfadoxine 500mg / pyrimethamine 25mg as single dose",
+      "passed": false,
+      "evidence": "The note states 'Sulfadoxine-pyrimethamine 3 tablets (total: sulfadoxine 1500 mg + pyrimethamine 75 mg) as a single oral dose'. This is the correct total dose (3 tablets), but the assertion asks for the per-tablet dose of sulfadoxine 500mg / pyrimethamine 25mg. The per-tablet breakdown is not explicitly stated, though the total dose of 3 tablets with 1500/75 total implies 500/25 per tablet. Grading as FAIL because the specific per-tablet dose of 500mg/25mg is not explicitly mentioned."
+    },
+    {
+      "text": "ITN use reinforced (already provided at first contact)",
+      "passed": true,
+      "evidence": "States: 'ITN: Already provided at Contact 1. Patient reports intermittent use (sometimes not used on hot nights). **Reinforce consistent nightly use**' with detailed counseling on usage."
+    },
+    {
+      "text": "Mild anemia identified (Hb 10.2, within 10-10.9 range)",
+      "passed": true,
+      "evidence": "Risk Classification states: 'Anemia status: Mild anemia — Hb 10.2 g/dL (down from 11.0 g/dL at Contact 1). Mild anemia is defined as Hb 10.0-10.9 g/dL in pregnancy.'"
+    },
+    {
+      "text": "Standard iron supplementation (30-60mg daily, not therapeutic dose)",
+      "passed": false,
+      "evidence": "The note actually recommends THERAPEUTIC dosing: 'Recommend increasing to 120 mg elemental iron daily' in the Supplementation section and 'Therapeutic iron: Increase iron from prophylactic 60 mg to therapeutic 120 mg elemental iron daily for mild anemia (Hb 10.2 g/dL)' in the Treatment section. The assertion expects standard 30-60mg daily for mild anemia, but the output recommends 120mg therapeutic dose."
+    },
+    {
+      "text": "Next IPTp-SP dose scheduled at Contact 3 (26 weeks), ≥1 month apart",
+      "passed": true,
+      "evidence": "States: 'Next dose (dose 2): At Contact 3 (approximately 26 weeks), at least 1 month from today' and the Next Contact section confirms: 'IPTp-SP dose 2 (at least 1 month after today's dose 1)'"
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 2,
+    "total": 8,
+    "pass_rate": 0.75
+  }
+}

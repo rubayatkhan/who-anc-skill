@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Output identifies this as ANC Contact 1 (first contact, ≤12 weeks)",
+      "passed": true,
+      "evidence": "Line 3: 'Contact Type: ANC Contact 1 (First Contact)' and line 208: 'Contact 1 (today) | Up to 12 weeks'"
+    },
+    {
+      "text": "Iron supplementation recommended at 30-60mg elemental iron daily",
+      "passed": true,
+      "evidence": "Line 97: 'Daily elemental iron: 30-60 mg'"
+    },
+    {
+      "text": "Folic acid 400mcg daily recommended",
+      "passed": true,
+      "evidence": "Line 98: 'Daily folic acid: 0.4 mg' (0.4 mg = 400 mcg)"
+    },
+    {
+      "text": "Blood group, Rh factor, hemoglobin, HIV, syphilis tests listed as required assessments",
+      "passed": true,
+      "evidence": "All listed in Clinical Assessment table: 'Blood group | A Rh-positive' (line 33), 'Hemoglobin | 12.1 g/dL' (line 32), 'HIV rapid test | Negative' (line 34), 'Syphilis (RPR) | Non-reactive' (line 35)"
+    },
+    {
+      "text": "Pre-eclampsia risk classified as LOW",
+      "passed": true,
+      "evidence": "Line 60: 'Classification: Low risk' under Pre-eclampsia Risk Assessment"
+    },
+    {
+      "text": "Next contact scheduled at approximately 20 weeks",
+      "passed": true,
+      "evidence": "Line 202: 'Next ANC contact | 20 weeks gestation'"
+    },
+    {
+      "text": "No danger signs flagged",
+      "passed": true,
+      "evidence": "Lines 42-44: 'Patient reports feeling well. No nausea, vomiting, vaginal bleeding, or abdominal pain. No urinary symptoms, headaches, visual disturbances, or edema.' No danger signs flagged in risk classification."
+    },
+    {
+      "text": "Disclaimer about clinical judgment present",
+      "passed": false,
+      "evidence": "No disclaimer about clinical judgment found anywhere in the output. The note ends with a summary paragraph at line 221 with no caveat or disclaimer."
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 1,
+    "total": 8,
+    "pass_rate": 0.88
+  }
+}

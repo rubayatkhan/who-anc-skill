@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Classified as GESTATIONAL HYPERTENSION specifically (not pre-eclampsia, not just 'elevated BP')",
+      "passed": true,
+      "evidence": "Hypertensive Status states: 'Classification: **Gestational Hypertension**' — uses the specific term, not a generic description."
+    },
+    {
+      "text": "Reasoning states: new-onset hypertension after 20 weeks + no proteinuria + no severe features",
+      "passed": true,
+      "evidence": "Diagnostic reasoning section explicitly lists: '1. New-onset hypertension after 20 weeks... This excludes chronic hypertension.' '2. Absence of proteinuria... which differentiates this from pre-eclampsia.' '3. Absence of severe features... This rules out pre-eclampsia with severe features.'"
+    },
+    {
+      "text": "Does NOT over-diagnose as pre-eclampsia (critical discrimination test)",
+      "passed": true,
+      "evidence": "The note explicitly differentiates: 'Pre-eclampsia requires hypertension PLUS proteinuria (>=+1 dipstick or >=300 mg/24h) OR end-organ dysfunction' and classifies as gestational hypertension, not pre-eclampsia. It also states 'MgSO4: NOT indicated. This is gestational hypertension without severe features.'"
+    },
+    {
+      "text": "Twice-weekly blood pressure monitoring recommended",
+      "passed": true,
+      "evidence": "Enhanced Monitoring Plan states: 'Blood pressure: Twice-weekly checks — patient should return every 3-4 days for BP measurement' and Next Contact reiterates: 'maintain twice-weekly BP monitoring'"
+    },
+    {
+      "text": "Weekly proteinuria screening recommended (watching for progression to pre-eclampsia)",
+      "passed": true,
+      "evidence": "Enhanced Monitoring Plan states: 'Urine protein: Weekly dipstick — serial monitoring for progression to pre-eclampsia' and Next Contact confirms: 'weekly proteinuria screening'"
+    },
+    {
+      "text": "Danger signs counseled — specifically headache, visual changes, epigastric pain as warning of pre-eclampsia progression",
+      "passed": true,
+      "evidence": "Counseling section lists: 'CRITICAL — Danger sign counseling for hypertensive progression' including 'Severe or persistent headache (especially frontal)', 'Visual changes (blurred vision, seeing spots, flashing lights)', and 'Epigastric or right upper quadrant pain'"
+    },
+    {
+      "text": "Delivery planning at 37 weeks if condition remains stable",
+      "passed": true,
+      "evidence": "Delivery Planning section states: 'Target: 37 weeks gestation if gestational hypertension remains stable without progression to pre-eclampsia'"
+    },
+    {
+      "text": "IPTp-SP status addressed (malaria-endemic setting, should be on dose 3-4 by 32 weeks)",
+      "passed": true,
+      "evidence": "Risk Classification notes: 'Malaria risk: Endemic area — IPTp-SP indicated; dose 4 due at this contact' and Malaria Prevention states: 'IPTp-SP: Administer dose 4 today as Directly Observed Therapy (DOT). Patient is 32 weeks GA, last dose was at 30 weeks (>1 month ago)'"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

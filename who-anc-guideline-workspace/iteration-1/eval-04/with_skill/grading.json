@@ -1,0 +1,35 @@
+{
+  "expectations": [
+    {
+      "text": "ART continuation explicitly recommended",
+      "passed": true,
+      "evidence": "Line 48: 'ART: Continue current regimen — TDF/3TC/DTG (tenofovir 300 mg / lamivudine 300 mg / dolutegravir 50 mg) daily. No change indicated; viral load is suppressed (<50 copies/mL). Reinforce adherence counseling.'"
+    },
+    {
+      "text": "Viral load monitoring schedule mentioned",
+      "passed": true,
+      "evidence": "Line 59: 'Viral load monitoring: Schedule next viral load at 34-36 weeks to guide delivery planning.'"
+    },
+    {
+      "text": "Infant prophylaxis or PMTCT planning mentioned",
+      "passed": true,
+      "evidence": "Lines 52-56: PMTCT Plan section includes 'Continue ART throughout pregnancy, delivery, and postpartum (lifelong, Option B+)', 'Plan for infant ARV prophylaxis at birth per national PMTCT guidelines', 'Plan infant HIV testing per national protocol (typically PCR at 6 weeks of age)', and safe infant feeding counseling."
+    },
+    {
+      "text": "Mild anemia identified (Hb 10.8)",
+      "passed": true,
+      "evidence": "Line 16: 'Anemia status: Mild anemia — Hb 10.8 g/dL (range 10.0-10.9 g/dL)'"
+    },
+    {
+      "text": "Standard iron/folate supplementation recommended alongside ART",
+      "passed": true,
+      "evidence": "Lines 36-37: 'Iron: 120 mg elemental iron daily (therapeutic dose)' and 'Folic acid: 400 mcg (0.4 mg) daily'. These are recommended alongside ongoing ART (line 48)."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  }
+}

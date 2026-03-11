@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "skill_name": "who-anc-guideline",
+    "skill_path": "/Users/rubayatkhan/Library/Mobile Documents/com~apple~CloudDocs/GitHub/who-anc-skill/who-anc-guideline",
+    "executor_model": "claude-opus-4-6",
+    "timestamp": "2026-03-11T16:10:13Z",
+    "evals_run": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "runs_per_configuration": 1
+  },
+  "configurations": [
+    {
+      "name": "with_skill",
+      "label": "With WHO ANC Skill",
+      "pass_rate": { "mean": 0.946, "stddev": 0.085 },
+      "time_seconds": { "mean": 0, "stddev": 0 },
+      "tokens": { "mean": 0, "stddev": 0 }
+    },
+    {
+      "name": "without_skill",
+      "label": "Without Skill (Baseline)",
+      "pass_rate": { "mean": 0.973, "stddev": 0.044 },
+      "time_seconds": { "mean": 0, "stddev": 0 },
+      "tokens": { "mean": 0, "stddev": 0 }
+    }
+  ],
+  "runs": [
+    {
+      "eval_id": 1, "eval_name": "routine-first-contact",
+      "with_skill": { "pass_rate": 0.875, "passed": 7, "failed": 1, "total": 8 },
+      "without_skill": { "pass_rate": 0.875, "passed": 7, "failed": 1, "total": 8 }
+    },
+    {
+      "eval_id": 2, "eval_name": "anemia-risk",
+      "with_skill": { "pass_rate": 1.0, "passed": 5, "failed": 0, "total": 5 },
+      "without_skill": { "pass_rate": 1.0, "passed": 5, "failed": 0, "total": 5 }
+    },
+    {
+      "eval_id": 3, "eval_name": "preeclampsia-high-risk",
+      "with_skill": { "pass_rate": 1.0, "passed": 6, "failed": 0, "total": 6 },
+      "without_skill": { "pass_rate": 1.0, "passed": 6, "failed": 0, "total": 6 }
+    },
+    {
+      "eval_id": 4, "eval_name": "hiv-positive",
+      "with_skill": { "pass_rate": 1.0, "passed": 5, "failed": 0, "total": 5 },
+      "without_skill": { "pass_rate": 1.0, "passed": 5, "failed": 0, "total": 5 }
+    },
+    {
+      "eval_id": 5, "eval_name": "gdm-screening",
+      "with_skill": { "pass_rate": 1.0, "passed": 4, "failed": 0, "total": 4 },
+      "without_skill": { "pass_rate": 1.0, "passed": 4, "failed": 0, "total": 4 }
+    },
+    {
+      "eval_id": 6, "eval_name": "adolescent-primigravida",
+      "with_skill": { "pass_rate": 1.0, "passed": 5, "failed": 0, "total": 5 },
+      "without_skill": { "pass_rate": 1.0, "passed": 5, "failed": 0, "total": 5 }
+    },
+    {
+      "eval_id": 7, "eval_name": "late-booking",
+      "with_skill": { "pass_rate": 1.0, "passed": 5, "failed": 0, "total": 5 },
+      "without_skill": { "pass_rate": 1.0, "passed": 5, "failed": 0, "total": 5 }
+    },
+    {
+      "eval_id": 8, "eval_name": "routine-third-trimester",
+      "with_skill": { "pass_rate": 1.0, "passed": 5, "failed": 0, "total": 5 },
+      "without_skill": { "pass_rate": 1.0, "passed": 5, "failed": 0, "total": 5 }
+    },
+    {
+      "eval_id": 9, "eval_name": "multiple-risk-factors",
+      "with_skill": { "pass_rate": 1.0, "passed": 8, "failed": 0, "total": 8 },
+      "without_skill": { "pass_rate": 1.0, "passed": 8, "failed": 0, "total": 8 }
+    },
+    {
+      "eval_id": 10, "eval_name": "danger-signs-severe-preeclampsia",
+      "with_skill": { "pass_rate": 0.857, "passed": 6, "failed": 1, "total": 7 },
+      "without_skill": { "pass_rate": 1.0, "passed": 7, "failed": 0, "total": 7 }
+    },
+    {
+      "eval_id": 11, "eval_name": "malaria-endemic-setting",
+      "with_skill": { "pass_rate": 0.75, "passed": 6, "failed": 2, "total": 8 },
+      "without_skill": { "pass_rate": 0.875, "passed": 7, "failed": 1, "total": 8 }
+    },
+    {
+      "eval_id": 12, "eval_name": "gestational-hypertension-evolving",
+      "with_skill": { "pass_rate": 1.0, "passed": 8, "failed": 0, "total": 8 },
+      "without_skill": { "pass_rate": 1.0, "passed": 8, "failed": 0, "total": 8 }
+    }
+  ],
+  "run_summary": {
+    "with_skill": { "total_passed": 70, "total_failed": 4, "total_assertions": 74, "pass_rate": 0.946 },
+    "without_skill": { "total_passed": 72, "total_failed": 2, "total_assertions": 74, "pass_rate": 0.973 },
+    "delta": {
+      "pass_rate": "-0.027",
+      "time_seconds": "N/A",
+      "tokens": "N/A"
+    }
+  },
+  "notes": [
+    "Baseline (without_skill) slightly outperforms with_skill (97.3% vs 94.6%)",
+    "Both variants perfect on 9/12 evals",
+    "With_skill failures: intermittent vs daily iron (eval-01), in-house mgmt vs referral (eval-10), therapeutic vs standard iron for mild anemia (eval-11)",
+    "Shared failure: neither variant stated per-tablet SP dose (eval-11)"
+  ]
+}

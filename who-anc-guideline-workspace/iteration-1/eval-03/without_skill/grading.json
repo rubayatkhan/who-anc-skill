@@ -1,0 +1,40 @@
+{
+  "expectations": [
+    {
+      "text": "Pre-eclampsia risk classified as HIGH (nulliparity + age >35 + BMI >30 + chronic hypertension)",
+      "passed": true,
+      "evidence": "Line 51: 'Pre-eclampsia Risk: HIGH'. All four factors identified: chronic hypertension (line 56), nulliparity (line 59), advanced maternal age 38 >= 35 (line 60), obesity BMI 33.1 > 30 (line 61)."
+    },
+    {
+      "text": "Aspirin 75mg daily recommended starting from 12 weeks",
+      "passed": true,
+      "evidence": "Line 88: 'Aspirin (low-dose) | 75 mg | Once daily | Start now, continue until 36 weeks | Pre-eclampsia prophylaxis; must begin before 20 weeks'. Patient presented at 14+1 weeks so 'start now' is the appropriate guidance. The 75mg daily dose and initiation are correct."
+    },
+    {
+      "text": "Calcium 1.5-2g daily recommended",
+      "passed": true,
+      "evidence": "Line 89: 'Calcium | 1.5-2.0 g daily | Divided doses (e.g., 500 mg three times daily) | Throughout pregnancy | Pre-eclampsia prophylaxis'"
+    },
+    {
+      "text": "Blood pressure monitoring frequency increased",
+      "passed": true,
+      "evidence": "Lines 177-190: 'Enhanced Frequency for High-Risk' schedule with 10+ contacts (vs standard 8), BP check listed at every visit. Line 197: 'Blood pressure (both arms at first visit; consistent arm thereafter)' under monitoring parameters at each visit."
+    },
+    {
+      "text": "Proteinuria monitoring recommended",
+      "passed": true,
+      "evidence": "Line 198: 'Urine dipstick for proteinuria' listed under Monitoring Parameters at Each Visit. Also 'urine protein' mentioned at every scheduled follow-up contact in the table (lines 182-190)."
+    },
+    {
+      "text": "Current BP (135/88) flagged as elevated but not in immediate danger range",
+      "passed": true,
+      "evidence": "Line 18: '135/88 mmHg | Elevated; consistent with chronic hypertension' and line 154: 'BP elevated but not severely; continue current regimen and monitor closely'"
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6,
+    "pass_rate": 1.0
+  }
+}

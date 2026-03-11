@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Setting identified as malaria-endemic",
+      "passed": true,
+      "evidence": "Facility line states: 'Rural Health Center, Siaya County, Western Kenya (malaria-endemic, high transmission)' and risk table notes 'Resides in holoendemic P. falciparum area (Lake Victoria basin)'."
+    },
+    {
+      "text": "IPTp-SP first dose recommended (GA 22 weeks, eligible since >13 weeks)",
+      "passed": true,
+      "evidence": "Section 5A is headed 'IPTp-SP — First Dose (CRITICAL ACTION TODAY)' and eligibility states: 'Gestational age 22 weeks (past the 13-week threshold)' and 'Was ineligible at Contact 1 (10 weeks, first trimester)'."
+    },
+    {
+      "text": "IPTp-SP specified as directly observed therapy (DOT) at the clinic",
+      "passed": true,
+      "evidence": "Section 5A states: 'Route: Oral, as Directly Observed Therapy (DOT) at the facility with clean drinking water' and summary item 4 reiterates: 'Administered IPTp-SP first dose (3 tablets, DOT)'."
+    },
+    {
+      "text": "Correct dose mentioned: sulfadoxine 500mg / pyrimethamine 25mg as single dose",
+      "passed": false,
+      "evidence": "The note states the total dose as 'sulfadoxine 1500 mg + pyrimethamine 75 mg' (3 tablets), which is the correct total. However, the assertion asks for the per-tablet dose of sulfadoxine 500mg / pyrimethamine 25mg to be mentioned, and the note does not break it down to per-tablet amounts. It only states '3 tablets of sulfadoxine-pyrimethamine (total: sulfadoxine 1500 mg + pyrimethamine 75 mg), single dose'."
+    },
+    {
+      "text": "ITN use reinforced (already provided at first contact)",
+      "passed": true,
+      "evidence": "Clinical summary notes 'She received an ITN at Contact 1 but reports intermittent use on hot nights.' Section 6A provides detailed counseling on ITN use including strategies for heat and the message that 'IPTp-SP provides intermittent clearance of parasites but is NOT a substitute for consistent ITN use'."
+    },
+    {
+      "text": "Mild anemia identified (Hb 10.2, within 10-10.9 range)",
+      "passed": true,
+      "evidence": "Lab results table states: 'Hemoglobin (HemoCue) 10.2 g/dL — Mild anemia (Hb 10.0-10.9 g/dL in pregnancy)' and risk table classifies it as 'Mild anemia'."
+    },
+    {
+      "text": "Standard iron supplementation (30-60mg daily, not therapeutic dose)",
+      "passed": true,
+      "evidence": "Supplementation table shows 'Iron (elemental) 60 mg daily — Continue' and notes: 'Standard-dose iron (60 mg) is maintained at this stage. If hemoglobin does not improve or drops further at Contact 3, escalation to therapeutic iron (120 mg elemental iron daily) should be considered.'"
+    },
+    {
+      "text": "Next IPTp-SP dose scheduled at Contact 3 (26 weeks), ≥1 month apart",
+      "passed": true,
+      "evidence": "Section 5A states: 'Next IPTp-SP dose: Due at Contact 3 (~26 weeks), at least 1 month from today.' The follow-up schedule confirms: 'IPTp-SP second dose — Administer as DOT (at least 1 month after today's dose)' at Contact 3."
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 1,
+    "total": 8,
+    "pass_rate": 0.88
+  }
+}

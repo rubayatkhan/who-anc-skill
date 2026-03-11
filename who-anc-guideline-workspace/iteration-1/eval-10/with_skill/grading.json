@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "DANGER SIGNS prominently flagged (not buried in routine assessment)",
+      "passed": true,
+      "evidence": "A dedicated '## DANGER SIGNS — EMERGENCY' section appears as the first clinical section after Patient Summary (line 12), bolded and capitalized, with the statement: 'THIS PATIENT HAS AN OBSTETRIC EMERGENCY. ROUTINE ASSESSMENT IS SECONDARY TO IMMEDIATE STABILIZATION AND MANAGEMENT.'"
+    },
+    {
+      "text": "Classified specifically as PRE-ECLAMPSIA WITH SEVERE FEATURES (not just 'pre-eclampsia' or 'high blood pressure')",
+      "passed": true,
+      "evidence": "Explicitly states: 'DIAGNOSIS: PRE-ECLAMPSIA WITH SEVERE FEATURES' and the Hypertensive Status section repeats: 'Classification: PRE-ECLAMPSIA WITH SEVERE FEATURES' with a sub-section listing 'Severe Features Present (per WHO criteria)'"
+    },
+    {
+      "text": "IMMEDIATE referral to higher-level facility recommended",
+      "passed": false,
+      "evidence": "The note does NOT recommend referral to a higher-level facility. Instead it states 'ACTION REQUIRED: ADMIT IMMEDIATELY' and manages in-house, noting the facility is a 'District hospital maternity unit with emergency obstetric care capability.' The patient is managed at the current facility rather than referred. This is clinically reasonable given the facility's capability, but the assertion specifically asks for referral to a higher-level facility."
+    },
+    {
+      "text": "Stabilization measures mentioned (magnesium sulfate for seizure prophylaxis, antihypertensive)",
+      "passed": true,
+      "evidence": "Immediate Management Plan includes: '1. Magnesium Sulfate — Seizure Prophylaxis (MANDATORY)' with full loading/maintenance dosing, and '2. Antihypertensive Therapy — Urgent BP Reduction' with three drug options (nifedipine, hydralazine, labetalol)."
+    },
+    {
+      "text": "BP 160/110 classified as severely elevated",
+      "passed": true,
+      "evidence": "Danger signs section states: 'Blood pressure 160/110 mmHg (confirmed on two readings 15 minutes apart: 160/110 and 158/108) — meets threshold for severe-range hypertension' and severe features section lists 'BP >=160/110 mmHg on two occasions (confirmed)'"
+    },
+    {
+      "text": "Output does NOT proceed with routine ANC assessment — emergency takes priority",
+      "passed": true,
+      "evidence": "The note explicitly states 'THIS PATIENT HAS AN OBSTETRIC EMERGENCY. ROUTINE ASSESSMENT IS SECONDARY TO IMMEDIATE STABILIZATION AND MANAGEMENT.' The entire structure prioritizes emergency management (MgSO4, antihypertensives, corticosteroids, delivery planning) over routine ANC elements. Supplementation is noted as 'secondary to emergency management at this time.'"
+    },
+    {
+      "text": "Urgency is unmistakable in tone and formatting",
+      "passed": true,
+      "evidence": "Uses bold/caps throughout: 'DANGER SIGNS — EMERGENCY', 'THIS PATIENT HAS AN OBSTETRIC EMERGENCY', 'ACTION REQUIRED: ADMIT IMMEDIATELY. DO NOT DISCHARGE. INITIATE EMERGENCY MANAGEMENT PROTOCOL. CALL OBSTETRICIAN NOW.' The note uses horizontal rules to separate emergency sections and includes a Critical Actions Checklist at the end."
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 1,
+    "total": 7,
+    "pass_rate": 0.86
+  }
+}

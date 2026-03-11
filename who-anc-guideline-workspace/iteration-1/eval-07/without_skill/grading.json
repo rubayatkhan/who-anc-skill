@@ -1,0 +1,35 @@
+{
+  "expectations": [
+    {
+      "text": "Late booking explicitly acknowledged",
+      "passed": true,
+      "evidence": "Title reads 'First Visit (Late Booking at 32 Weeks)'. Visit Type states 'First ANC contact — late booking; catch-up required for Contacts 1 through 4'. Risk table lists 'Late booking (32 weeks, no prior ANC)' as HIGH RISK."
+    },
+    {
+      "text": "All Contact 1 baseline labs recommended (blood group, Rh, HIV, syphilis, hemoglobin)",
+      "passed": true,
+      "evidence": "Section 1.3 lists hemoglobin as completed (11.5 g/dL) and pending catch-up baseline tests: 'HIV rapid test', 'Syphilis rapid test', 'Blood group and Rh typing', plus urine dipstick and random blood glucose."
+    },
+    {
+      "text": "Ultrasound recommended even though beyond ideal window",
+      "passed": true,
+      "evidence": "Section 2 states 'Refer for ultrasound at district hospital if feasible to improve dating accuracy and assess fetal biometry, amniotic fluid, and placental location. However, ultrasound dating is less reliable in the third trimester.' Referral table confirms 'Ultrasound for gestational age and fetal assessment — Refer to district hospital'."
+    },
+    {
+      "text": "Compressed remaining visit schedule outlined",
+      "passed": true,
+      "evidence": "Section 7 'Compressed ANC Schedule — Remaining Contacts' provides a table with Contact 2 (~34 weeks), Contact 3 (~36 weeks), Contact 4 (~38 weeks), Contact 5 (~40 weeks), with 'Appointment interval: Every 2 weeks from now until delivery'."
+    },
+    {
+      "text": "Birth preparedness emphasized given late presentation",
+      "passed": true,
+      "evidence": "Section 5.1 'Birth Preparedness and Complication Readiness (HIGH PRIORITY)' provides detailed counseling on facility-based delivery, transport plan, birth companion, emergency funds, blood donors, and delivery kit. Risk table also flags 'No birth preparedness plan' as HIGH RISK."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  }
+}

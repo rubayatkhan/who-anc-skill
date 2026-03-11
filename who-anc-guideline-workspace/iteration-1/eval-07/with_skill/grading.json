@@ -1,0 +1,35 @@
+{
+  "expectations": [
+    {
+      "text": "Late booking explicitly acknowledged",
+      "passed": true,
+      "evidence": "Line 6: 'Late booking — first ANC at 32 weeks. Maps to Contact 5 (GA 32-35 weeks), but this is the FIRST visit. All Contact 1 baseline assessments plus catch-up for Contacts 2-4 are required.'"
+    },
+    {
+      "text": "All Contact 1 baseline labs recommended (blood group, Rh, HIV, syphilis, hemoglobin)",
+      "passed": true,
+      "evidence": "Lines 29-31: HIV rapid test 'Pending — perform today', Syphilis rapid test 'Pending — perform today', Blood group & Rh typing 'Pending — perform today'. Hemoglobin already done at 11.5 g/dL (line 28). All five baseline labs are addressed."
+    },
+    {
+      "text": "Ultrasound recommended even though beyond ideal window",
+      "passed": true,
+      "evidence": "Line 33: 'Ultrasound (dating/anomaly): Not available at this facility. Ideally should have been done before 24 weeks. Refer to district hospital for ultrasound if feasible to confirm GA and assess fetal wellbeing, though benefit of dating scan is reduced at 32 weeks.'"
+    },
+    {
+      "text": "Compressed remaining visit schedule outlined",
+      "passed": true,
+      "evidence": "Lines 118-123: 'Compressed Schedule for Remaining Pregnancy:' with visits at 34 weeks (Contact 5), 36 weeks (Contact 6), 38 weeks (Contact 7), and 40 weeks (Contact 8), each with specific assessments listed."
+    },
+    {
+      "text": "Birth preparedness emphasized given late presentation",
+      "passed": true,
+      "evidence": "Lines 84-95: 'Birth Preparedness and Complication Readiness (CRITICAL given late booking and intended home delivery)' with detailed facility delivery recommendation, written birth plan elements including transport plan, birth companion, savings, blood donor, and packed bag."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  }
+}

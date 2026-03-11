@@ -1,0 +1,35 @@
+{
+  "expectations": [
+    {
+      "text": "Anemia classified as MODERATE (Hb 9.2 is in 7-9.9 range)",
+      "passed": true,
+      "evidence": "Line 11: 'Anemia status: Moderate anemia — Hb 9.2 g/dL (WHO pregnancy threshold: moderate = 7.0-9.9 g/dL)'"
+    },
+    {
+      "text": "Iron dose is 120mg elemental iron daily (therapeutic, not prophylactic)",
+      "passed": true,
+      "evidence": "Line 36: 'Iron: 120 mg elemental iron daily (therapeutic dose)'"
+    },
+    {
+      "text": "Hemoglobin recheck recommended within 1-3 months",
+      "passed": true,
+      "evidence": "Line 65: 'Hemoglobin recheck in 4 weeks (approximately 15 weeks GA) to assess response to therapeutic iron'. 4 weeks falls within the 1-3 month range."
+    },
+    {
+      "text": "Dietary counseling on iron-rich foods mentioned",
+      "passed": true,
+      "evidence": "Lines 51-54: 'Increase consumption of iron-rich foods (dark leafy greens, legumes, red meat when available, organ meats, fortified foods)', 'Consume vitamin C-rich foods with meals to enhance iron absorption', and advice on avoiding tea/coffee with meals."
+    },
+    {
+      "text": "Folic acid 400mcg daily recommended",
+      "passed": true,
+      "evidence": "Line 37: 'Folic acid: 400 mcg (0.4 mg) daily'"
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  }
+}

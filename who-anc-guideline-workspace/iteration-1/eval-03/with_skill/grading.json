@@ -1,0 +1,40 @@
+{
+  "expectations": [
+    {
+      "text": "Pre-eclampsia risk classified as HIGH (nulliparity + age >35 + BMI >30 + chronic hypertension)",
+      "passed": true,
+      "evidence": "Lines 16-18: 'Pre-eclampsia prophylaxis risk: HIGH' with 'HIGH-risk factor present: Chronic hypertension' and 'Additional MODERATE-risk factors: Nulliparity, age >=35 years, BMI >30 (33.1 kg/m2), family history of pre-eclampsia (mother)'"
+    },
+    {
+      "text": "Aspirin 75mg daily recommended starting from 12 weeks",
+      "passed": true,
+      "evidence": "Line 45: 'Aspirin: 75 mg daily — start immediately (should begin by 12-20 weeks; patient is at 14 weeks). Continue until 36 weeks GA or delivery.'"
+    },
+    {
+      "text": "Calcium 1.5-2g daily recommended",
+      "passed": true,
+      "evidence": "Line 44: 'Calcium: 1.5-2.0 g daily in 3 divided doses — indicated because of HIGH pre-eclampsia risk.'"
+    },
+    {
+      "text": "Blood pressure monitoring frequency increased",
+      "passed": true,
+      "evidence": "Line 72: 'Given HIGH-risk status (chronic HTN, high pre-eclampsia risk), consider more frequent monitoring — interim BP check at 16-18 weeks if feasible'"
+    },
+    {
+      "text": "Proteinuria monitoring recommended",
+      "passed": true,
+      "evidence": "Line 13: 'Monitor closely for superimposed pre-eclampsia at every subsequent contact: new-onset proteinuria, sudden BP worsening, or end-organ dysfunction would indicate superimposed pre-eclampsia.' Also line 29: urine dipstick for protein was performed."
+    },
+    {
+      "text": "Current BP (135/88) flagged as elevated but not in immediate danger range",
+      "passed": true,
+      "evidence": "Line 12: 'BP elevated (135/88) with documented history of chronic hypertension' and 'No evidence of superimposed pre-eclampsia at this time (no proteinuria, no end-organ dysfunction symptoms)'. Classification is Chronic Hypertension, not severe/emergency."
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6,
+    "pass_rate": 1.0
+  }
+}

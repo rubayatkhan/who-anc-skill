@@ -1,0 +1,35 @@
+{
+  "expectations": [
+    {
+      "text": "Identified as ANC Contact 6 (36 weeks)",
+      "passed": true,
+      "evidence": "Line 6: 'ANC Contact: 6 of 8 (scheduled at 36 weeks)'"
+    },
+    {
+      "text": "Fetal presentation assessment included",
+      "passed": true,
+      "evidence": "Line 27: 'Fetal presentation: Cephalic (confirmed by abdominal palpation)'"
+    },
+    {
+      "text": "Birth preparedness and complication readiness counseled",
+      "passed": true,
+      "evidence": "Lines 50-56: 'Birth preparedness and complication readiness (reinforce)' covering delivery facility confirmation, transport plan, birth companion, packed bag, emergency savings, and emergency contacts."
+    },
+    {
+      "text": "Breastfeeding counseling included",
+      "passed": true,
+      "evidence": "Lines 67-71: 'Breastfeeding counseling' covering early initiation within 1 hour, exclusive breastfeeding for 6 months, positioning and attachment techniques, and common challenges."
+    },
+    {
+      "text": "Next contact at 38 weeks (Contact 7)",
+      "passed": true,
+      "evidence": "Line 82: 'Scheduled at 38 weeks (Contact 7)'"
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "expectations": [
+    {
+      "text": "DANGER SIGNS prominently flagged (not buried in routine assessment)",
+      "passed": true,
+      "evidence": "The note title is 'ANC Assessment Note — EMERGENCY' and there is a dedicated early section 'DANGER SIGN SCREENING — POSITIVE' with bold 'CLASSIFICATION: EMERGENCY — SEVERE PRE-ECLAMPSIA' appearing before any routine assessment content."
+    },
+    {
+      "text": "Classified specifically as PRE-ECLAMPSIA WITH SEVERE FEATURES (not just 'pre-eclampsia' or 'high blood pressure')",
+      "passed": true,
+      "evidence": "Section 1 of Risk Classification states: 'Diagnosis: PRE-ECLAMPSIA WITH SEVERE FEATURES' in bold, and explicitly clarifies: 'This is NOT gestational hypertension or mild pre-eclampsia. This is severe pre-eclampsia requiring immediate emergency management.'"
+    },
+    {
+      "text": "IMMEDIATE referral to higher-level facility recommended",
+      "passed": true,
+      "evidence": "The Disposition section includes 'If This Facility Could NOT Manage:' with 'URGENT referral/transfer with midwife escort to nearest comprehensive emergency obstetric care facility'. The patient is managed at this facility since it has capability, but referral pathway is explicitly addressed."
+    },
+    {
+      "text": "Stabilization measures mentioned (magnesium sulfate for seizure prophylaxis, antihypertensive)",
+      "passed": true,
+      "evidence": "PRIORITY 1 details MgSO4 loading dose (4g IV + 10g IM) and maintenance. PRIORITY 2 details antihypertensive therapy with nifedipine, hydralazine, or labetalol options. Both are marked with 'NOW' urgency."
+    },
+    {
+      "text": "BP 160/110 classified as severely elevated",
+      "passed": true,
+      "evidence": "Vital signs table states BP 160/110 mmHg with interpretation: 'Severely elevated (>=160 systolic and/or >=110 diastolic)' and second reading 'Confirms severe hypertension'."
+    },
+    {
+      "text": "Output does NOT proceed with routine ANC assessment — emergency takes priority",
+      "passed": true,
+      "evidence": "The entire note is structured as an emergency protocol. There is no routine ANC assessment section (no dietary counseling, no routine supplementation review, no birth preparedness as primary content). The note immediately proceeds to danger sign screening, emergency classification, and immediate management priorities. Counseling topics are explicitly 'Deferred to Post-Delivery'."
+    },
+    {
+      "text": "Urgency is unmistakable in tone and formatting",
+      "passed": true,
+      "evidence": "Title includes 'EMERGENCY', visit type is 'Urgent / Unscheduled — Emergency Presentation', actions are labeled 'PRIORITY 1' through 'PRIORITY 7', next steps all begin with 'NOW:', and disposition states 'This patient must NOT be discharged' in bold. The summary describes the case as an 'EMERGENCY' with bold formatting."
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "pass_rate": 1.0
+  }
+}

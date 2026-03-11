@@ -1,0 +1,35 @@
+{
+  "expectations": [
+    {
+      "text": "Undernutrition/low BMI flagged as concern",
+      "passed": true,
+      "evidence": "Risk item 2 states 'Underweight / Undernutrition (BMI 17.6, MUAC 21.5 cm): Significant nutritional risk. BMI below 18.5 and MUAC below 23 cm indicate current undernutrition'."
+    },
+    {
+      "text": "Enhanced nutritional supplementation or counseling recommended",
+      "passed": true,
+      "evidence": "Section 3 recommends 'Balanced Energy and Protein Supplementation' given BMI below 18.5 and MUAC below 23 cm. Section 4 provides detailed nutritional counseling on dietary diversity, protein-rich foods, and small frequent meals."
+    },
+    {
+      "text": "Tetanus toxoid vaccination schedule initiated (TT1 with schedule for TT2+)",
+      "passed": true,
+      "evidence": "Section 3 states 'TT1 administered today (first dose)' and 'TT2 to be given at least 4 weeks from today (schedule at next contact)'. Summary confirms 'TT1 vaccine administered; new vaccination card issued'."
+    },
+    {
+      "text": "Psychosocial support or adolescent-friendly services mentioned",
+      "passed": true,
+      "evidence": "Risk item 1 notes 'Requires adolescent-friendly care approach, confidential counseling'. Section 4 'Mental Health and Psychosocial Support' discusses 'adolescent-friendly mental health services at facility (adolescent health corner)' and 'community support groups for adolescent mothers'."
+    },
+    {
+      "text": "Mild anemia identified and treated",
+      "passed": true,
+      "evidence": "Vitals table shows 'Hemoglobin 10.5 g/dL — Mild anemia'. Risk item 3 classifies it as 'Mild anemia (Hb 10.5 g/dL)'. Treatment is 'Elemental iron 120 mg daily (therapeutic dose for mild anemia in a high-prevalence setting)' plus folic acid."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  }
+}

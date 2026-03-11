@@ -1,0 +1,35 @@
+{
+  "expectations": [
+    {
+      "text": "Identified as ANC Contact 6 (36 weeks)",
+      "passed": true,
+      "evidence": "Title reads 'ANC Contact Note — Contact 6'. Gestational age stated as '36 weeks'. Visit Type is 'Scheduled ANC Contact 6'."
+    },
+    {
+      "text": "Fetal presentation assessment included",
+      "passed": true,
+      "evidence": "Fetal Assessment table includes 'Fetal presentation: Cephalic (confirmed by abdominal palpation)'. Section 6 plan notes 'Fetal presentation: Cephalic at 36 weeks — favorable. Re-assess at next contact'."
+    },
+    {
+      "text": "Birth preparedness and complication readiness counseled",
+      "passed": true,
+      "evidence": "Section 5.1 'Birth Preparedness and Complication Readiness' covers delivery facility, transport plan, birth companion, packed bag, emergency savings, and emergency contacts."
+    },
+    {
+      "text": "Breastfeeding counseling included",
+      "passed": true,
+      "evidence": "Section 5.3 'Breastfeeding Counseling' discusses early initiation within one hour of birth, exclusive breastfeeding for 6 months, positioning and attachment techniques, and benefits for mother and infant."
+    },
+    {
+      "text": "Next contact at 38 weeks (Contact 7)",
+      "passed": true,
+      "evidence": "Section 6 plan states 'Schedule next contact: Contact 7 at 38 weeks gestational age.' Summary confirms 'The patient is scheduled for Contact 7 at 38 weeks'."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  }
+}

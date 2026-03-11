@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Moderate anemia classified (Hb 8.5 is in 7-9.9 range)",
+      "passed": true,
+      "evidence": "Section 2A states: 'Classification: Moderate anemia (Hb 8.5 g/dL; WHO defines moderate anemia in pregnancy as Hb 7.0-9.9 g/dL)'"
+    },
+    {
+      "text": "Therapeutic iron (120mg daily) recommended",
+      "passed": true,
+      "evidence": "Section 3A table states: 'Regimen: 120 mg elemental iron daily (therapeutic dose)' with rationale 'Moderate anemia (Hb 8.5 g/dL) with declining trend despite prophylactic dose (60 mg/day)'"
+    },
+    {
+      "text": "Pre-eclampsia risk classified as HIGH (nulliparity + BMI >30 + elevated BP + proteinuria)",
+      "passed": true,
+      "evidence": "Section 2B heading is 'Pre-eclampsia Risk -- HIGH' and lists risk factors: 'Nulliparity (first pregnancy)', 'Obesity (BMI >= 30)', 'Elevated blood pressure with upward trend', 'New and progressive proteinuria'"
+    },
+    {
+      "text": "Aspirin 75mg recommended",
+      "passed": true,
+      "evidence": "Section 3C states: 'Aspirin 75-150 mg (preferably 150 mg) daily at bedtime' with heading 'Low-Dose Aspirin -- INITIATE NOW'"
+    },
+    {
+      "text": "Calcium 1.5-2g recommended",
+      "passed": true,
+      "evidence": "Section 3B states: 'Regimen: 1.5-2.0 g elemental calcium daily in divided doses (e.g., 500 mg three times daily)'"
+    },
+    {
+      "text": "Proteinuria flagged for monitoring and workup",
+      "passed": true,
+      "evidence": "Investigation table includes 'Repeat urine dipstick - Monitor proteinuria trend' and 'Consider urine protein-to-creatinine ratio (spot) or 24-hour urine protein - Quantify proteinuria if +1 persists or worsens'"
+    },
+    {
+      "text": "Facility-based delivery plan recommended",
+      "passed": true,
+      "evidence": "Section 5D states: 'Delivery MUST occur at a facility with cesarean section and blood transfusion capability (this district hospital is appropriate)' and Section 5E: 'Delivering at this district hospital (not at home or lower-level facility)'"
+    },
+    {
+      "text": "Multiple risks result in more frequent monitoring schedule",
+      "passed": true,
+      "evidence": "Section 7 states: 'Increased visit frequency recommended -- every 2 weeks until 36 weeks, then weekly, given risk profile' and return in '1-2 weeks' for BP/proteinuria recheck"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

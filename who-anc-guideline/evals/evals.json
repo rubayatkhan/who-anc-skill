@@ -1,0 +1,175 @@
+{
+  "skill_name": "who-anc-guideline",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Please assess this pregnant patient and generate an ANC contact note following WHO guidelines.\n\n[contents of vignette-01-routine-first-contact.md]",
+      "expected_output": "Complete ANC Contact 1 note with standard supplementation, low risk classification, all required first-contact assessments listed",
+      "files": ["evals/vignettes/vignette-01-routine-first-contact.md"],
+      "expectations": [
+        "Output identifies this as ANC Contact 1 (first contact, ≤12 weeks)",
+        "Iron supplementation recommended at 30-60mg elemental iron daily",
+        "Folic acid 400mcg daily recommended",
+        "Blood group, Rh factor, hemoglobin, HIV, syphilis tests listed as required assessments",
+        "Pre-eclampsia risk classified as LOW",
+        "Next contact scheduled at approximately 20 weeks",
+        "No danger signs flagged",
+        "Disclaimer about clinical judgment present"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Assess this ANC patient and provide guideline-based recommendations.\n\n[contents of vignette-02-anemia-risk.md]",
+      "expected_output": "ANC note identifying moderate anemia, recommending therapeutic iron dose, dietary counseling",
+      "files": ["evals/vignettes/vignette-02-anemia-risk.md"],
+      "expectations": [
+        "Anemia classified as MODERATE (Hb 9.2 is in 7-9.9 range)",
+        "Iron dose is 120mg elemental iron daily (therapeutic, not prophylactic)",
+        "Hemoglobin recheck recommended within 1-3 months",
+        "Dietary counseling on iron-rich foods mentioned",
+        "Folic acid 400mcg daily recommended"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Generate an ANC assessment for this patient.\n\n[contents of vignette-03-preeclampsia-high-risk.md]",
+      "expected_output": "High pre-eclampsia risk identified, aspirin + calcium recommended, close monitoring",
+      "files": ["evals/vignettes/vignette-03-preeclampsia-high-risk.md"],
+      "expectations": [
+        "Pre-eclampsia risk classified as HIGH (nulliparity + age >35 + BMI >30 + chronic hypertension)",
+        "Aspirin 75mg daily recommended starting from 12 weeks",
+        "Calcium 1.5-2g daily recommended",
+        "Blood pressure monitoring frequency increased",
+        "Proteinuria monitoring recommended",
+        "Current BP (135/88) flagged as elevated but not in immediate danger range"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "This HIV-positive pregnant woman needs her ANC contact note.\n\n[contents of vignette-04-hiv-positive.md]",
+      "expected_output": "ANC note with HIV-specific management integrated into routine ANC",
+      "files": ["evals/vignettes/vignette-04-hiv-positive.md"],
+      "expectations": [
+        "ART continuation explicitly recommended",
+        "Viral load monitoring schedule mentioned",
+        "Infant prophylaxis or PMTCT planning mentioned",
+        "Mild anemia identified (Hb 10.8)",
+        "Standard iron/folate supplementation recommended alongside ART"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Assess this patient for her 26-week ANC visit.\n\n[contents of vignette-05-gdm-screening.md]",
+      "expected_output": "Contact 3 note with GDM screening recommendation",
+      "files": ["evals/vignettes/vignette-05-gdm-screening.md"],
+      "expectations": [
+        "Identified as ANC Contact 3 (26 weeks)",
+        "GDM screening recommended based on risk factors (BMI, family history, elevated glucose)",
+        "Oral glucose tolerance test (OGTT) or equivalent mentioned",
+        "Dietary counseling for GDM prevention recommended"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Please provide ANC guidance for this adolescent patient.\n\n[contents of vignette-06-adolescent-primigravida.md]",
+      "expected_output": "ANC note with adolescent-specific considerations, nutrition emphasis, vaccination",
+      "files": ["evals/vignettes/vignette-06-adolescent-primigravida.md"],
+      "expectations": [
+        "Undernutrition/low BMI flagged as concern",
+        "Enhanced nutritional supplementation or counseling recommended",
+        "Tetanus toxoid vaccination schedule initiated (TT1 with schedule for TT2+)",
+        "Psychosocial support or adolescent-friendly services mentioned",
+        "Mild anemia identified and treated"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "This woman is coming for her first ANC visit at 32 weeks. What catch-up assessments are needed?\n\n[contents of vignette-07-late-booking.md]",
+      "expected_output": "Catch-up ANC note listing all missed assessments from contacts 1-4",
+      "files": ["evals/vignettes/vignette-07-late-booking.md"],
+      "expectations": [
+        "Late booking explicitly acknowledged",
+        "All Contact 1 baseline labs recommended (blood group, Rh, HIV, syphilis, hemoglobin)",
+        "Ultrasound recommended even though beyond ideal window",
+        "Compressed remaining visit schedule outlined",
+        "Birth preparedness emphasized given late presentation"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "Generate a Contact 6 ANC note for this patient with normal pregnancy progression.\n\n[contents of vignette-08-routine-third-trimester.md]",
+      "expected_output": "Routine Contact 6 note with third-trimester-specific assessments",
+      "files": ["evals/vignettes/vignette-08-routine-third-trimester.md"],
+      "expectations": [
+        "Identified as ANC Contact 6 (36 weeks)",
+        "Fetal presentation assessment included",
+        "Birth preparedness and complication readiness counseled",
+        "Breastfeeding counseling included",
+        "Next contact at 38 weeks (Contact 7)"
+      ]
+    },
+    {
+      "id": 9,
+      "prompt": "This patient has multiple complications. Please assess and generate recommendations.\n\n[contents of vignette-09-multiple-risk-factors.md]",
+      "expected_output": "Complex ANC note addressing severe anemia, pre-eclampsia risk, multiple interventions",
+      "files": ["evals/vignettes/vignette-09-multiple-risk-factors.md"],
+      "expectations": [
+        "Moderate anemia classified (Hb 8.5 is in 7-9.9 range)",
+        "Therapeutic iron (120mg daily) recommended",
+        "Pre-eclampsia risk classified as HIGH (nulliparity + BMI >30 + elevated BP + proteinuria)",
+        "Aspirin 75mg recommended",
+        "Calcium 1.5-2g recommended",
+        "Proteinuria flagged for monitoring and workup",
+        "Facility-based delivery plan recommended",
+        "Multiple risks result in more frequent monitoring schedule"
+      ]
+    },
+    {
+      "id": 10,
+      "prompt": "URGENT: This patient just presented with the following symptoms. Assess immediately.\n\n[contents of vignette-10-danger-signs-severe-preeclampsia.md]",
+      "expected_output": "IMMEDIATE danger sign alert with urgent referral, classified as pre-eclampsia with severe features",
+      "files": ["evals/vignettes/vignette-10-danger-signs-severe-preeclampsia.md"],
+      "expectations": [
+        "DANGER SIGNS prominently flagged (not buried in routine assessment)",
+        "Classified specifically as PRE-ECLAMPSIA WITH SEVERE FEATURES (not just 'pre-eclampsia' or 'high blood pressure')",
+        "IMMEDIATE referral to higher-level facility recommended",
+        "Stabilization measures mentioned (magnesium sulfate for seizure prophylaxis, antihypertensive)",
+        "BP 160/110 classified as severely elevated",
+        "Output does NOT proceed with routine ANC assessment — emergency takes priority",
+        "Urgency is unmistakable in tone and formatting"
+      ]
+    },
+    {
+      "id": 11,
+      "prompt": "Please provide an ANC assessment for this patient at a rural health center in western Kenya.\n\n[contents of vignette-11-malaria-endemic-setting.md]",
+      "expected_output": "ANC Contact 2 note with IPTp-SP as a key recommendation, malaria prevention integrated into routine ANC",
+      "files": ["evals/vignettes/vignette-11-malaria-endemic-setting.md"],
+      "expectations": [
+        "Setting identified as malaria-endemic",
+        "IPTp-SP first dose recommended (GA 22 weeks, eligible since >13 weeks)",
+        "IPTp-SP specified as directly observed therapy (DOT) at the clinic",
+        "Correct dose mentioned: sulfadoxine 500mg / pyrimethamine 25mg as single dose",
+        "ITN use reinforced (already provided at first contact)",
+        "Mild anemia identified (Hb 10.2, within 10-10.9 range)",
+        "Standard iron supplementation (30-60mg daily, not therapeutic dose)",
+        "Next IPTp-SP dose scheduled at Contact 3 (26 weeks), ≥1 month apart"
+      ]
+    },
+    {
+      "id": 12,
+      "prompt": "This previously normotensive patient has elevated blood pressure at today's visit. Please assess.\n\n[contents of vignette-12-gestational-hypertension-evolving.md]",
+      "expected_output": "Gestational hypertension classified (NOT pre-eclampsia), with monitoring plan and danger sign counseling",
+      "files": ["evals/vignettes/vignette-12-gestational-hypertension-evolving.md"],
+      "expectations": [
+        "Classified as GESTATIONAL HYPERTENSION specifically (not pre-eclampsia, not just 'elevated BP')",
+        "Reasoning states: new-onset hypertension after 20 weeks + no proteinuria + no severe features",
+        "Does NOT over-diagnose as pre-eclampsia (critical discrimination test)",
+        "Twice-weekly blood pressure monitoring recommended",
+        "Weekly proteinuria screening recommended (watching for progression to pre-eclampsia)",
+        "Danger signs counseled — specifically headache, visual changes, epigastric pain as warning of pre-eclampsia progression",
+        "Delivery planning at 37 weeks if condition remains stable",
+        "IPTp-SP status addressed (malaria-endemic setting, should be on dose 3-4 by 32 weeks)"
+      ]
+    }
+  ]
+}

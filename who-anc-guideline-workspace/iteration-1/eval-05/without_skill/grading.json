@@ -1,0 +1,30 @@
+{
+  "expectations": [
+    {
+      "text": "Identified as ANC Contact 3 (26 weeks)",
+      "passed": true,
+      "evidence": "Title reads 'ANC Contact Note — Visit 3 (26 Weeks)' and gestational age stated as '26 weeks'."
+    },
+    {
+      "text": "GDM screening recommended based on risk factors (BMI, family history, elevated glucose)",
+      "passed": true,
+      "evidence": "Section 2.1 explicitly classifies patient as 'HIGH RISK for gestational diabetes mellitus (GDM)' listing 'Overweight BMI — 29.0 kg/m2', 'First-degree family history of type 2 diabetes — mother diagnosed with T2DM', and 'Elevated random blood glucose — 7.8 mmol/L with trace glycosuria'."
+    },
+    {
+      "text": "Oral glucose tolerance test (OGTT) or equivalent mentioned",
+      "passed": true,
+      "evidence": "Section 2.1 states 'Order a 75g oral glucose tolerance test (OGTT) within the next 1-2 weeks' with fasting, 1-hour, and 2-hour plasma glucose measurements specified."
+    },
+    {
+      "text": "Dietary counseling for GDM prevention recommended",
+      "passed": true,
+      "evidence": "Section 4.1 'Dietary Counseling — PRIORITY' covers reducing refined sugar intake, increasing dietary fiber, balanced meals, regular meal timing, and portion control, noting 'This dietary counseling is relevant both for the pending OGTT and as initial medical nutrition therapy guidance should GDM be confirmed'."
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 0,
+    "total": 4,
+    "pass_rate": 1.0
+  }
+}

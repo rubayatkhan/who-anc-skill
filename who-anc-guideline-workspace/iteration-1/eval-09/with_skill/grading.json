@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Moderate anemia classified (Hb 8.5 is in 7-9.9 range)",
+      "passed": true,
+      "evidence": "Risk Classification states: 'Anemia status: **Moderate anemia** — Hb 8.5 g/dL (declining trend: 10.8 at booking, 9.6 at Contact 2, now 8.5)'"
+    },
+    {
+      "text": "Therapeutic iron (120mg daily) recommended",
+      "passed": true,
+      "evidence": "Supplementation section states: 'Iron: SWITCH to THERAPEUTIC dosing — 120 mg elemental iron daily (WHO recommendation for moderate anemia, Hb 7.0-9.9 g/dL)'"
+    },
+    {
+      "text": "Pre-eclampsia risk classified as HIGH (nulliparity + BMI >30 + elevated BP + proteinuria)",
+      "passed": true,
+      "evidence": "Risk Classification states: 'Pre-eclampsia prophylaxis risk: **HIGH** — meets MODERATE risk threshold (requires 2 or more): nulliparity, BMI >30 (32.0), family history of pre-eclampsia (sister), age approaching 35. Additionally, emerging proteinuria (+1) and upward-trending BP further support high-risk classification.'"
+    },
+    {
+      "text": "Aspirin 75mg recommended",
+      "passed": true,
+      "evidence": "Supplementation section states: 'Aspirin: 75 mg daily — INITIATE IMMEDIATELY. Should have been started at 12 weeks given high pre-eclampsia risk profile (nulliparity + BMI >30 + family history of pre-eclampsia in sister = meets moderate-risk threshold of >=2 factors).'"
+    },
+    {
+      "text": "Calcium 1.5-2g recommended",
+      "passed": true,
+      "evidence": "Supplementation section states: 'Calcium: 1.5-2.0 g elemental calcium daily in 3 divided doses — reinforce adherence (patient reports intermittent use). Essential given high pre-eclampsia risk.'"
+    },
+    {
+      "text": "Proteinuria flagged for monitoring and workup",
+      "passed": true,
+      "evidence": "Hypertensive Status section notes 'Proteinuria: Urine dipstick protein +1 (trend: negative at Contact 1, trace at Contact 2, +1 now)' and Assessments section orders 'Quantitative proteinuria — if available (24-hour urine protein or protein:creatinine ratio) to establish baseline given persistent proteinuria trend'"
+    },
+    {
+      "text": "Facility-based delivery plan recommended",
+      "passed": true,
+      "evidence": "Counseling section states: 'Delivery MUST occur at a facility with cesarean section and blood transfusion capability (this facility is appropriate)' and 'Birth preparedness: Begin planning for delivery — identify transport, birth companion, emergency funds, facility with surgical capability.'"
+    },
+    {
+      "text": "Multiple risks result in more frequent monitoring schedule",
+      "passed": true,
+      "evidence": "Next Contact section states: 'Additional BP/proteinuria check in 1-2 weeks (approximately 25-26 weeks) given high-risk profile with upward-trending BP and proteinuria. This is earlier than the standard Contact 4 schedule and is warranted by the clinical picture.'"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}
