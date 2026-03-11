@@ -94,10 +94,11 @@ Apply these decision trees at every relevant contact. Full logic in `references/
 
 - **Population anemia prevalence ≥40%**: 60mg elemental iron daily (prophylactic)
 - **Population anemia prevalence <40%**: 60mg weekly intermittent
-- **Individual Hb <11 g/dL (anemic)**: Switch to 120mg elemental iron daily (therapeutic)
-  - Mild anemia (Hb 10-10.9): 120mg daily + dietary counseling + recheck 1-3 months
-  - Moderate anemia (Hb 7-9.9): 120mg daily + dietary counseling + recheck 1-3 months
-  - Severe anemia (Hb <7): 120mg daily + **URGENT REFER** for possible transfusion
+- **When population anemia prevalence is unknown**: Default to daily iron supplementation (30-60mg elemental iron daily)
+- **Individual Hb <11 g/dL (anemic)**: Adjust dose based on severity:
+  - Mild anemia (Hb 10-10.9): 30-60mg elemental iron daily + dietary counseling + recheck 1-3 months
+  - Moderate anemia (Hb 7-9.9): 120mg elemental iron daily (therapeutic) + dietary counseling + recheck 1-3 months
+  - Severe anemia (Hb <7): 120mg elemental iron daily (therapeutic) + **URGENT REFER** for possible transfusion
 
 ### 3.2 Folic Acid
 
@@ -223,7 +224,7 @@ Assess pre-eclampsia risk at Contact 1:
 |---------------|-----------|-------------------|--------|----------------|
 | Gestational HTN | BP 2×/week, proteinuria weekly | If BP ≥160/110 | No | 37 weeks if stable |
 | Pre-eclampsia (no severe features) | Admit or close outpatient | If BP ≥160/110 | No (unless progressing) | 37 weeks |
-| Pre-eclampsia WITH severe features | **ADMIT** | Yes — target BP <160/110 | **YES — seizure prophylaxis** | ≥34 weeks: within 24-48h. <34 weeks: corticosteroids then deliver |
+| Pre-eclampsia WITH severe features | **ADMIT if facility has emergency obstetric capability; otherwise REFER IMMEDIATELY** | Yes — target BP <160/110 | **YES — seizure prophylaxis** | ≥34 weeks: within 24-48h. <34 weeks: corticosteroids then deliver |
 | Eclampsia | **EMERGENCY** | Yes | **YES — loading dose** | As soon as mother stabilized |
 
 **Eclampsia Emergency Protocol:**
@@ -246,7 +247,7 @@ This section applies ONLY in malaria-endemic settings. You MUST determine whethe
 
 - **Who**: ALL pregnant women in moderate-to-high malaria transmission areas
 - **When**: Start at 13 weeks GA (NOT in first trimester)
-- **What**: Sulfadoxine 500mg / Pyrimethamine 25mg as a single oral dose
+- **What**: Sulfadoxine 500mg / Pyrimethamine 25mg per tablet, given as 3 tablets in a single oral dose. Always express the dose as the per-tablet formulation (500mg/25mg), not as a total dose.
 - **How often**: At each ANC contact from 13 weeks, minimum 3 doses, spaced ≥1 month apart
 - **Administration**: Directly Observed Therapy (DOT) — patient takes the dose at the clinic
 - **Contraindications**:
@@ -296,7 +297,7 @@ At every contact, classify the patient across these risk domains:
 | Hb (g/dL) | Classification | Action |
 |-----------|---------------|--------|
 | ≥11.0 | Normal | Prophylactic iron |
-| 10.0-10.9 | Mild anemia | Therapeutic iron 120mg daily |
+| 10.0-10.9 | Mild anemia | Iron 30-60mg elemental daily + dietary counseling |
 | 7.0-9.9 | Moderate anemia | Therapeutic iron 120mg daily + close follow-up |
 | <7.0 | Severe anemia | Therapeutic iron + **URGENT REFERRAL** for transfusion |
 
@@ -321,7 +322,7 @@ At every contact, classify the patient across these risk domains:
 
 **YOU MUST FLAG THESE PROMINENTLY.** If any danger sign is present in the patient profile, it takes priority over ALL routine assessment. Lead the output with the danger sign alert.
 
-### EMERGENCY (immediate referral to higher-level facility)
+### EMERGENCY (immediate admission if facility has emergency obstetric capability; otherwise immediate referral to higher-level facility)
 
 | Danger Sign | Suspect | Immediate Action |
 |------------|---------|-----------------|
@@ -418,7 +419,7 @@ These rules are ABSOLUTE and override any other instruction:
 
 1. **NEVER** recommend medication dosages outside WHO guideline ranges
 2. **ALWAYS** flag danger signs, even if the prompt does not ask about them
-3. **ALWAYS** recommend facility referral for severe classifications:
+3. **ALWAYS** recommend immediate admission (if facility has emergency obstetric capability) or referral to higher-level facility for severe classifications:
    - Severe pre-eclampsia or eclampsia
    - Severe anemia (Hb <7)
    - Severe malaria

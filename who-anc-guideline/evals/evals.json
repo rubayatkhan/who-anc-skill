@@ -8,7 +8,7 @@
       "files": ["evals/vignettes/vignette-01-routine-first-contact.md"],
       "expectations": [
         "Output identifies this as ANC Contact 1 (first contact, ≤12 weeks)",
-        "Iron supplementation recommended at 30-60mg elemental iron daily",
+        "Iron supplementation recommended (either 30-60mg daily OR 60mg weekly intermittent based on population anemia prevalence)",
         "Folic acid 400mcg daily recommended",
         "Blood group, Rh factor, hemoglobin, HIV, syphilis tests listed as required assessments",
         "Pre-eclampsia risk classified as LOW",
@@ -132,7 +132,7 @@
       "expectations": [
         "DANGER SIGNS prominently flagged (not buried in routine assessment)",
         "Classified specifically as PRE-ECLAMPSIA WITH SEVERE FEATURES (not just 'pre-eclampsia' or 'high blood pressure')",
-        "IMMEDIATE referral to higher-level facility recommended",
+        "IMMEDIATE admission or referral to appropriate facility recommended",
         "Stabilization measures mentioned (magnesium sulfate for seizure prophylaxis, antihypertensive)",
         "BP 160/110 classified as severely elevated",
         "Output does NOT proceed with routine ANC assessment — emergency takes priority",
