@@ -1,0 +1,42 @@
+{
+  "eval_id": 6,
+  "vignette": "vignette-06-adolescent-primigravida",
+  "patient": "Blessing T., 16y, G1P0, 8 weeks GA",
+  "key_features": [
+    "Adolescent primigravida (16 years old)",
+    "Underweight (BMI 17.6, MUAC 21.5 cm)",
+    "Mild anemia (Hb 10.5 g/dL) in high-prevalence setting",
+    "No tetanus vaccination records available",
+    "PHQ-2 positive, psychosocial vulnerability",
+    "Unplanned pregnancy, food insecurity",
+    "Non-endemic for malaria"
+  ],
+  "expectations": [
+    "Undernutrition/low BMI flagged as concern",
+    "Enhanced nutritional supplementation or counseling recommended",
+    "Tetanus toxoid vaccination schedule initiated (TT1 with schedule for TT2+)",
+    "Psychosocial support or adolescent-friendly services mentioned",
+    "Mild anemia identified and treated"
+  ],
+  "results_summary": {
+    "with_skill": {
+      "pass_count": 5,
+      "total": 5,
+      "pass_rate": "5/5"
+    },
+    "without_skill": {
+      "pass_count": 3,
+      "total": 5,
+      "pass_rate": "3/5"
+    }
+  },
+  "skill_delta": "+2 expectations met with skill",
+  "key_differences": [
+    "with_skill: WHO-specific balanced energy/protein supplementation explicitly recommended for undernourished populations; without_skill: only generic dietary advice",
+    "with_skill: TT1 initiated at visit with TT2 scheduled in >=4 weeks and vaccination card provided; without_skill: tetanus deferred to 'review and administer as needed'",
+    "with_skill: Precise iron dosing (60 mg elemental daily) with population-prevalence reasoning, deworming planned, hemoglobin recheck in 4 weeks; without_skill: vague 'standard prenatal dose', incorrect folic acid dose (5 mg vs 0.4 mg), no deworming, no recheck timeline",
+    "with_skill: Structured adolescent-friendly services referral with specific facility resources; without_skill: generic counseling mentioned without adolescent-specific pathway"
+  ],
+  "iteration": 2,
+  "timestamp": "2026-03-11"
+}

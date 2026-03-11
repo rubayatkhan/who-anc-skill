@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Output identifies this as ANC Contact 1 (first contact, <=12 weeks)",
+      "passed": false,
+      "evidence": "The note says 'First ANC Visit' but does not use the WHO 8-contact model terminology. It does not identify this as 'Contact 1 of 8' or reference the <=12 weeks scheduling framework."
+    },
+    {
+      "text": "Iron supplementation recommended (either 30-60mg daily OR 60mg weekly intermittent based on population anemia prevalence)",
+      "passed": true,
+      "evidence": "Start daily iron (30-60mg elemental iron) and folic acid (0.4mg)"
+    },
+    {
+      "text": "Folic acid 400mcg daily recommended",
+      "passed": true,
+      "evidence": "folic acid (0.4mg) — 0.4mg = 400mcg, recommended daily alongside iron."
+    },
+    {
+      "text": "Blood group, Rh factor, hemoglobin, HIV, syphilis tests listed as required assessments",
+      "passed": false,
+      "evidence": "The note lists results under 'Examination & Investigations' but does not frame them as 'required assessments' per WHO contact schedule. The results are present but the structured assessment checklist format is missing — they are reported as findings, not as a required assessment matrix."
+    },
+    {
+      "text": "Pre-eclampsia risk classified as LOW",
+      "passed": false,
+      "evidence": "The note says 'Low-risk pregnancy' generically but does not specifically classify pre-eclampsia risk as LOW using a formal risk stratification framework (High/Moderate/Low). There is no reasoning about risk factors for pre-eclampsia."
+    },
+    {
+      "text": "Next contact scheduled at approximately 20 weeks",
+      "passed": true,
+      "evidence": "Next visit at approximately 20 weeks"
+    },
+    {
+      "text": "No danger signs flagged",
+      "passed": true,
+      "evidence": "No danger signs are flagged in the note. Danger signs are discussed under counseling but appropriately as education rather than active alerts."
+    },
+    {
+      "text": "Disclaimer about clinical judgment present",
+      "passed": true,
+      "evidence": "This note is based on WHO ANC guidelines. Clinical decisions should be made by a qualified healthcare provider based on individual patient assessment."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 3,
+    "total": 8,
+    "pass_rate": 0.625
+  }
+}

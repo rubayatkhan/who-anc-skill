@@ -1,0 +1,49 @@
+{
+  "eval_id": 9,
+  "config": "without_skill",
+  "results": [
+    {
+      "expectation": "Moderate anemia classified (Hb 8.5 is in 7-9.9 range)",
+      "pass": false,
+      "detail": "Note says 'The patient has anemia with Hb of 8.5 g/dL' but does NOT classify severity as moderate. No mention of mild/moderate/severe classification or the 7-9.9 g/dL range. Just described as 'anemia' generically."
+    },
+    {
+      "expectation": "Therapeutic iron (120mg daily) recommended",
+      "pass": false,
+      "detail": "Note says 'Increase dose for anemia' and 'increasing her iron dose' but does NOT specify 120mg elemental iron daily (the therapeutic dose). No specific dosage stated at all."
+    },
+    {
+      "expectation": "Pre-eclampsia risk classified as HIGH (nulliparity + BMI >30 + elevated BP + proteinuria)",
+      "pass": false,
+      "detail": "No formal pre-eclampsia risk classification performed. Individual risk factors mentioned in scattered sections (obesity, proteinuria, BP trend) but not systematically classified as HIGH or MODERATE risk. No structured risk assessment."
+    },
+    {
+      "expectation": "Aspirin 75mg recommended",
+      "pass": false,
+      "detail": "Aspirin is NOT mentioned anywhere in the note. This is a significant omission -- no aspirin prophylaxis recommended despite multiple pre-eclampsia risk factors."
+    },
+    {
+      "expectation": "Calcium 1.5-2g recommended",
+      "pass": false,
+      "detail": "Calcium supplementation is NOT mentioned in the plan or recommendations. No specific calcium dose recommended despite high pre-eclampsia risk."
+    },
+    {
+      "expectation": "Proteinuria flagged for monitoring and workup",
+      "pass": true,
+      "detail": "Proteinuria identified as 'new finding' with trend documented (negative -> trace -> +1). Plan includes 'repeat dipstick at next visit; consider quantitative protein testing.' Adequate monitoring recommended."
+    },
+    {
+      "expectation": "Facility-based delivery plan recommended",
+      "pass": true,
+      "detail": "States 'Hospital delivery planned given risk factors' and mentions prior myomectomy needs obstetric consultation for delivery planning. Adequate but less specific than the with_skill note."
+    },
+    {
+      "expectation": "Multiple risks result in more frequent monitoring schedule",
+      "pass": true,
+      "detail": "Follow-up in 2 weeks recommended for BP and proteinuria recheck. Acknowledges need for closer monitoring given risk profile."
+    }
+  ],
+  "pass_count": 3,
+  "total": 8,
+  "pass_rate": "3/8"
+}

@@ -1,0 +1,43 @@
+{
+  "eval_id": 9,
+  "vignette": "vignette-09-multiple-risk-factors",
+  "title": "Multiple Risk Factors — Anemia, Obesity, Elevated BP, Proteinuria",
+  "patient": "Esther K., 34y, G1P0, 24 weeks",
+  "iteration": 2,
+  "date": "2026-03-11",
+  "model": "claude-opus-4-6",
+  "results": {
+    "with_skill": {
+      "pass_count": 8,
+      "total": 8,
+      "pass_rate": "8/8"
+    },
+    "without_skill": {
+      "pass_count": 3,
+      "total": 8,
+      "pass_rate": "3/8"
+    }
+  },
+  "delta": "+5 expectations met with skill",
+  "key_findings": {
+    "skill_advantages": [
+      "Formal WHO severity classification of anemia (moderate, Hb 7-9.9 range)",
+      "Specific therapeutic iron dose (120mg elemental daily) per WHO protocol",
+      "Structured pre-eclampsia risk classification (HIGH/MODERATE with enumerated criteria)",
+      "Aspirin 75mg prophylaxis recommended with start/stop guidance",
+      "Calcium 1.5-2g daily in divided doses with spacing from iron"
+    ],
+    "without_skill_gaps": [
+      "No anemia severity classification -- just 'anemia' without grading",
+      "No specific iron dose -- just 'increase dose'",
+      "No formal pre-eclampsia risk stratification",
+      "Aspirin completely omitted despite multiple risk factors",
+      "Calcium supplementation completely omitted"
+    ],
+    "both_captured": [
+      "Proteinuria monitoring and workup",
+      "Facility-based delivery recommendation",
+      "More frequent monitoring schedule"
+    ]
+  }
+}

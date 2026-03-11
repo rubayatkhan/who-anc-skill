@@ -1,0 +1,30 @@
+{
+  "expectations": [
+    {
+      "text": "Identified as ANC Contact 3 (26 weeks)",
+      "passed": true,
+      "evidence": "Header states 'ANC Contact: 3 of 8 (scheduled at 26 weeks)' and Contact 3 assessment matrix is explicitly referenced."
+    },
+    {
+      "text": "GDM screening recommended based on risk factors (BMI, family history, elevated glucose)",
+      "passed": true,
+      "evidence": "Dedicated 'GDM Screening — Priority Action This Contact' section lists all four risk factors: previous macrosomic infant (4.2 kg), family history of type 2 diabetes (first-degree relative), BMI 29 (overweight), and elevated random blood glucose (7.8 mmol/L) with trace glycosuria."
+    },
+    {
+      "text": "Oral glucose tolerance test (OGTT) or equivalent mentioned",
+      "passed": true,
+      "evidence": "Explicitly states 'A 75g oral glucose tolerance test (OGTT) is indicated and should be scheduled within 1-2 weeks' with full diagnostic criteria (WHO 2013 thresholds for fasting, 1-hour, and 2-hour values)."
+    },
+    {
+      "text": "Dietary counseling for GDM prevention recommended",
+      "passed": true,
+      "evidence": "Dedicated 'Dietary Counseling — Important This Contact' section recommends reducing refined sugars and sweetened beverages, reducing refined carbohydrates, increasing fiber, balanced meals, and regular meal timing. Also mentions medical nutrition therapy as first-line if GDM confirmed."
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 0,
+    "total": 4,
+    "pass_rate": 1.00
+  }
+}

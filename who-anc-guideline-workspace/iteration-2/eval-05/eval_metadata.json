@@ -1,0 +1,12 @@
+{
+  "eval_id": 5,
+  "vignette": "vignette-05-gdm-screening.md",
+  "with_skill": {
+    "pass_count": 4,
+    "total": 4
+  },
+  "without_skill": {
+    "pass_count": 2,
+    "total": 4
+  }
+}

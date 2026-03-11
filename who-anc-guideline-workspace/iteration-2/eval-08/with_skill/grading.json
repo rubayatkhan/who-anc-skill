@@ -1,0 +1,34 @@
+{
+  "eval_id": 8,
+  "config": "with_skill",
+  "results": [
+    {
+      "expectation": "Identified as ANC Contact 6 (36 weeks)",
+      "pass": true,
+      "evidence": "Note explicitly states 'ANC Contact: 6 of 8 (scheduled at 36 weeks)' in Patient Summary, matching the SKILL.md 8-contact model and contact mapping rules (GA 36-37 weeks = Contact 6)."
+    },
+    {
+      "expectation": "Fetal presentation assessment included",
+      "pass": true,
+      "evidence": "Fetal presentation is assessed and documented as 'Cephalic (confirmed by abdominal palpation)' under Assessments Required This Contact, explicitly noting this is the expected assessment at Contact 6 per WHO schedule. The SKILL.md assessment matrix marks fetal presentation as required starting at Contact 6."
+    },
+    {
+      "expectation": "Birth preparedness and complication readiness counseled",
+      "pass": true,
+      "evidence": "Dedicated subsection under Counseling Topics covers: delivery facility confirmed (district hospital 3km away), transport plan (motorcycle taxi), birth companion (husband), emergency preparations (packed bag, savings, emergency contact numbers), and full danger signs review with specific signs listed."
+    },
+    {
+      "expectation": "Breastfeeding counseling included",
+      "pass": true,
+      "evidence": "Dedicated 'Breastfeeding Counseling' subsection covers early initiation within 1 hour of delivery, exclusive breastfeeding for 6 months, positioning and attachment techniques, and benefits. Also acknowledges patient's successful prior breastfeeding experience."
+    },
+    {
+      "expectation": "Next contact at 38 weeks (Contact 7)",
+      "pass": true,
+      "evidence": "Next Contact section explicitly states 'Scheduled at 38 weeks (Contact 7)' with preparation items listed, consistent with the SKILL.md 8-contact schedule."
+    }
+  ],
+  "pass_count": 5,
+  "total": 5,
+  "pass_rate": "5/5"
+}

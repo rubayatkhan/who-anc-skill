@@ -1,0 +1,40 @@
+{
+  "expectations": [
+    {
+      "text": "Pre-eclampsia risk classified as HIGH (nulliparity + age >35 + BMI >30 + chronic hypertension)",
+      "passed": false,
+      "evidence": "The note does not use formal risk classification terminology (HIGH/MODERATE/LOW). It mentions 'higher risk for complications' vaguely under advanced maternal age and says 'Consider low-dose aspirin for pre-eclampsia prevention given risk factors (advanced age, first pregnancy, chronic hypertension, obesity)' but never formally classifies the pre-eclampsia risk as HIGH. The risk factors are listed loosely but not systematically categorized."
+    },
+    {
+      "text": "Aspirin 75mg daily recommended starting from 12 weeks",
+      "passed": false,
+      "evidence": "The note says 'Consider low-dose aspirin for pre-eclampsia prevention given risk factors' but does not specify the dose (75mg), does not mention the 12-week start time, does not specify daily frequency, and uses 'consider' rather than a firm recommendation. No stop date (36 weeks) is mentioned either."
+    },
+    {
+      "text": "Calcium 1.5-2g daily recommended",
+      "passed": false,
+      "evidence": "Calcium supplementation is not mentioned anywhere in the note. Only 'prenatal vitamins including iron and folic acid' are mentioned under medications."
+    },
+    {
+      "text": "Blood pressure monitoring frequency increased",
+      "passed": false,
+      "evidence": "The note says 'Regular blood pressure checks at each visit' and 'Return in 4-6 weeks for next antenatal visit' but does not explicitly increase monitoring frequency beyond standard ANC. There is no mention of more frequent contacts or compressed schedule due to high-risk status. A 4-6 week return interval is essentially standard, not intensified."
+    },
+    {
+      "text": "Proteinuria monitoring recommended",
+      "passed": true,
+      "evidence": "The Monitoring section states 'Monitor for signs of pre-eclampsia (proteinuria, headache, visual changes, swelling)' which does include proteinuria monitoring as part of pre-eclampsia surveillance."
+    },
+    {
+      "text": "Current BP (135/88) flagged as elevated but not in immediate danger range",
+      "passed": true,
+      "evidence": "The note describes BP as 'mildly elevated' (135/88 mmHg) and states 'No current signs of pre-eclampsia' which implicitly indicates it is not in the immediate danger range. However, the characterization is less precise than the with-skill version -- it does not explicitly state it is not >=160/110."
+    }
+  ],
+  "summary": {
+    "passed": 2,
+    "failed": 4,
+    "total": 6,
+    "pass_rate": 0.33
+  }
+}

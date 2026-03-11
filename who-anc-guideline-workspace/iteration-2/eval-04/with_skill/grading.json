@@ -1,0 +1,34 @@
+{
+  "eval_id": 4,
+  "config": "with_skill",
+  "results": [
+    {
+      "expectation": "ART continuation explicitly recommended",
+      "grade": "PASS",
+      "reason": "Note explicitly states 'Continue current ART regimen: TDF/3TC/DTG... No change indicated — viral load is suppressed' and reiterates under PMTCT Planning: 'Continue TDF/3TC/DTG throughout pregnancy, delivery, and postpartum. ART is lifelong (Option B+).'"
+    },
+    {
+      "expectation": "Viral load monitoring schedule mentioned",
+      "grade": "PASS",
+      "reason": "Note states 'Next viral load should be scheduled at 34-36 weeks gestation (Contact 5) to confirm continued suppression and guide delivery planning.' Also referenced in PMTCT and Next Contact sections."
+    },
+    {
+      "expectation": "Infant prophylaxis or PMTCT planning mentioned",
+      "grade": "PASS",
+      "reason": "Dedicated PMTCT Planning subsection covers infant ARV prophylaxis at birth, infant feeding (exclusive breastfeeding with ART), infant HIV testing (PCR at 6 weeks), and delivery plan based on viral suppression."
+    },
+    {
+      "expectation": "Mild anemia identified (Hb 10.8)",
+      "grade": "PASS",
+      "reason": "Anemia explicitly classified as 'Mild anemia' with Hb 10.8 g/dL in both the Risk Classification section ('falls in the 10.0-10.9 g/dL mild anemia range per WHO pregnancy thresholds') and Assessments section."
+    },
+    {
+      "expectation": "Standard iron/folate supplementation recommended alongside ART",
+      "grade": "PASS",
+      "reason": "Iron 30-60 mg elemental iron daily recommended for mild anemia with dietary counseling, plus folic acid 400 mcg daily. Both explicitly listed under Supplementation, alongside ongoing ART under Treatment."
+    }
+  ],
+  "pass_count": 5,
+  "total": 5,
+  "pass_rate": "5/5"
+}

@@ -1,0 +1,30 @@
+{
+  "expectations": [
+    {
+      "text": "Identified as ANC Contact 3 (26 weeks)",
+      "passed": false,
+      "evidence": "Note says 'Third antenatal visit' and '26 weeks gestation' but does not use the WHO 8-contact model terminology. It is labeled as 'ANC Visit Note — 26 Weeks' rather than identifying this as Contact 3 of the standardized 8-contact schedule."
+    },
+    {
+      "text": "GDM screening recommended based on risk factors (BMI, family history, elevated glucose)",
+      "passed": true,
+      "evidence": "Assessment section identifies GDM risk factors: previous macrosomic baby (4.2 kg), family history of diabetes, overweight (BMI 29), and elevated random glucose. States 'This warrants further evaluation for gestational diabetes.'"
+    },
+    {
+      "text": "Oral glucose tolerance test (OGTT) or equivalent mentioned",
+      "passed": true,
+      "evidence": "Plan states 'Order glucose tolerance test' and mentions 'A formal glucose challenge or OGTT should be arranged.' However, the specific 75g OGTT protocol with WHO diagnostic criteria is not provided."
+    },
+    {
+      "text": "Dietary counseling for GDM prevention recommended",
+      "passed": true,
+      "evidence": "Plan item 2 states 'Counsel on reducing sugar-sweetened beverages and refined carbohydrates. Encourage balanced meals with more whole grains, vegetables, and lean protein.'"
+    }
+  ],
+  "summary": {
+    "passed": 3,
+    "failed": 1,
+    "total": 4,
+    "pass_rate": 0.75
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "eval_id": 7,
+  "config": "with_skill",
+  "results": [
+    {
+      "expectation": "Late booking explicitly acknowledged",
+      "pass": true,
+      "evidence": "Note prominently states 'Late booking -- first ANC at 32 weeks' in the patient summary, includes a dedicated 'LATE BOOKING ALERT' paragraph explaining the catch-up protocol, and documents the reason for late booking."
+    },
+    {
+      "expectation": "All Contact 1 baseline labs recommended (blood group, Rh, HIV, syphilis, hemoglobin)",
+      "pass": true,
+      "evidence": "Under 'Contact 1 Baseline (catch-up -- all overdue)' section, all five baseline labs are explicitly listed: blood group and Rh type (TO BE PERFORMED TODAY), HIV rapid test (TO BE PERFORMED TODAY), syphilis rapid test (TO BE PERFORMED TODAY), hemoglobin (11.5 g/dL already obtained), plus urine dipstick and random blood glucose."
+    },
+    {
+      "expectation": "Ultrasound recommended even though beyond ideal window",
+      "pass": true,
+      "evidence": "Note states 'Ultrasound: RECOMMENDED -- Ideally performed before 24 weeks for dating and anomaly screening, but still recommended even at 32 weeks to confirm GA, assess fetal growth, placental location, amniotic fluid volume, and fetal presentation. Refer to district hospital (45 km) for ultrasound if feasible given transport constraints.'"
+    },
+    {
+      "expectation": "Compressed remaining visit schedule outlined",
+      "pass": true,
+      "evidence": "Dedicated 'Compressed Remaining Visit Schedule' section with a 5-row table mapping visits at 32, 34, 36, 38, and 40 weeks with specific contact numbers and key actions for each."
+    },
+    {
+      "expectation": "Birth preparedness emphasized given late presentation",
+      "pass": true,
+      "evidence": "Birth preparedness is marked as 'CRITICAL' and 'HIGH PRIORITY' in the counseling section. Covers facility-based delivery recommendation, transport plan, birth companion, emergency savings, and a comprehensive list of danger signs. Also noted under risk classification as a concern."
+    }
+  ],
+  "pass_count": 5,
+  "total": 5,
+  "pass_rate": "5/5"
+}

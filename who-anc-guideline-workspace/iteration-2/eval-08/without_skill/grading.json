@@ -1,0 +1,34 @@
+{
+  "eval_id": 8,
+  "config": "without_skill",
+  "results": [
+    {
+      "expectation": "Identified as ANC Contact 6 (36 weeks)",
+      "pass": false,
+      "evidence": "Note describes this as 'a routine third trimester visit' without identifying it as Contact 6 within the WHO 8-contact model. No contact numbering or WHO scheduling framework is referenced."
+    },
+    {
+      "expectation": "Fetal presentation assessment included",
+      "pass": true,
+      "evidence": "Fetal presentation is documented: 'Fetal lie: longitudinal, cephalic presentation' under Examination Findings. However, it is not framed as a WHO-mandated assessment starting at Contact 6."
+    },
+    {
+      "expectation": "Birth preparedness and complication readiness counseled",
+      "pass": false,
+      "evidence": "The note mentions 'Discuss birth plan -- patient plans delivery at district hospital, has transport available, husband as support person' and lists danger signs, but this is brief and does not constitute structured birth preparedness and complication readiness (BPCR) counseling. Missing: packed bag, savings for emergency, emergency contact numbers, structured complication readiness components. The WHO framework for BPCR is not applied."
+    },
+    {
+      "expectation": "Breastfeeding counseling included",
+      "pass": false,
+      "evidence": "Note mentions 'Discuss newborn care basics and feeding plans' which is vague and does not specifically address breastfeeding counseling. Missing: early initiation within 1 hour, exclusive breastfeeding for 6 months, positioning and attachment -- the key WHO-recommended breastfeeding counseling elements."
+    },
+    {
+      "expectation": "Next contact at 38 weeks (Contact 7)",
+      "pass": false,
+      "evidence": "Note states 'Return in approximately 2 weeks for next prenatal visit' which would be around 38 weeks, but does not identify this as Contact 7 within the WHO 8-contact model. The scheduling lacks the WHO framework specificity."
+    }
+  ],
+  "pass_count": 1,
+  "total": 5,
+  "pass_rate": "1/5"
+}

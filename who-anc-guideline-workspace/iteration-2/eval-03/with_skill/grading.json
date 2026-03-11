@@ -1,0 +1,39 @@
+{
+  "eval_id": 3,
+  "config": "with_skill",
+  "results": [
+    {
+      "expectation": "Pre-eclampsia risk classified as HIGH (nulliparity + age >35 + BMI >30 + chronic hypertension)",
+      "grade": "PASS",
+      "reason": "Risk explicitly classified as HIGH with detailed reasoning citing chronic hypertension as a single high-risk factor plus nulliparity, age >=35, BMI >30, and family history of pre-eclampsia as multiple moderate risk factors."
+    },
+    {
+      "expectation": "Aspirin 75mg daily recommended starting from 12 weeks",
+      "grade": "PASS",
+      "reason": "Aspirin 75mg daily recommended with instruction to START NOW at 14 weeks (noting should have started at 12 weeks). Continue until 36 weeks. Correctly tied to HIGH pre-eclampsia risk."
+    },
+    {
+      "expectation": "Calcium 1.5-2g daily recommended",
+      "grade": "PASS",
+      "reason": "Calcium 1.5-2.0g daily in divided doses explicitly recommended, citing HIGH pre-eclampsia risk and Section 3.3 guidance. Spacing from iron supplements noted."
+    },
+    {
+      "expectation": "Blood pressure monitoring frequency increased",
+      "grade": "PASS",
+      "reason": "Dedicated BP monitoring plan section specifies increased frequency at every ANC contact, home BP monitoring with log, and target BP <140/90. Includes checks for proteinuria and symptoms at each visit."
+    },
+    {
+      "expectation": "Proteinuria monitoring recommended",
+      "grade": "PASS",
+      "reason": "Proteinuria monitoring explicitly recommended at each contact via urine dipstick. Note states any new proteinuria warrants urgent assessment for superimposed pre-eclampsia. Current negative result documented."
+    },
+    {
+      "expectation": "Current BP (135/88) flagged as elevated but not in immediate danger range",
+      "grade": "PASS",
+      "reason": "BP 135/88 explicitly described as 'elevated but below severe threshold (<160/110)' and 'NOT in immediate danger range.' No signs of superimposed pre-eclampsia documented."
+    }
+  ],
+  "pass_count": 6,
+  "total": 6,
+  "pass_rate": "6/6"
+}

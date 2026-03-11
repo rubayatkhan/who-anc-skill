@@ -1,0 +1,29 @@
+{
+  "eval_id": 5,
+  "config": "without_skill",
+  "results": [
+    {
+      "expectation": "Identified as ANC Contact 3 (26 weeks)",
+      "pass": false,
+      "evidence": "Note describes visit as 'Routine antenatal check-up' without identifying it as Contact 3 of the WHO 8-contact model. No contact numbering or WHO ANC schedule framework referenced. The note lacks the structured contact classification."
+    },
+    {
+      "expectation": "GDM screening recommended based on risk factors (BMI, family history, elevated glucose)",
+      "pass": true,
+      "evidence": "Note identifies risk factors for gestational diabetes including previous large baby (4.2 kg macrosomia), family history of T2DM (mother), overweight BMI (29.0), diet high in refined carbohydrates, and elevated random blood glucose 7.8 mmol/L. Recommends further glucose testing."
+    },
+    {
+      "expectation": "Oral glucose tolerance test (OGTT) or equivalent mentioned",
+      "pass": false,
+      "evidence": "Note says 'A glucose tolerance test should be arranged' but does not specify the 75g OGTT protocol, does not provide WHO diagnostic thresholds, and uses vague language ('further glucose testing'). The specific OGTT with fasting + 1hr + 2hr measurements is not mentioned."
+    },
+    {
+      "expectation": "Dietary counseling for GDM prevention recommended",
+      "pass": true,
+      "evidence": "Note includes dietary advice section recommending reducing sugar-sweetened beverages and refined carbohydrates, balanced diet with fiber/protein/vegetables, and regular meal times. Also mentions dietary management as first-line if GDM confirmed."
+    }
+  ],
+  "pass_count": 2,
+  "total": 4,
+  "pass_rate": "2/4"
+}

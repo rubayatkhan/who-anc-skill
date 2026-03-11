@@ -1,0 +1,19 @@
+{
+  "eval_id": 1,
+  "skill_name": "who-anc-guideline",
+  "vignette": "vignette-01-routine-first-contact.md",
+  "prompt": "Please assess this pregnant patient and generate an ANC contact note following WHO guidelines.\n\n[contents of vignette-01-routine-first-contact.md]",
+  "expected_output": "Complete ANC Contact 1 note with standard supplementation, low risk classification, all required first-contact assessments listed",
+  "expectations": [
+    "Output identifies this as ANC Contact 1 (first contact, <=12 weeks)",
+    "Iron supplementation recommended (either 30-60mg daily OR 60mg weekly intermittent based on population anemia prevalence)",
+    "Folic acid 400mcg daily recommended",
+    "Blood group, Rh factor, hemoglobin, HIV, syphilis tests listed as required assessments",
+    "Pre-eclampsia risk classified as LOW",
+    "Next contact scheduled at approximately 20 weeks",
+    "No danger signs flagged",
+    "Disclaimer about clinical judgment present"
+  ],
+  "iteration": 2,
+  "date": "2026-03-11"
+}

@@ -1,0 +1,27 @@
+{
+  "eval_id": 2,
+  "vignette": "vignette-02-anemia-risk.md",
+  "prompt": "Assess this ANC patient and provide guideline-based recommendations.",
+  "iteration": 2,
+  "date": "2026-03-11",
+  "model": "claude-opus-4-6",
+  "results": {
+    "with_skill": {
+      "pass_rate": 1.0,
+      "passed": 5,
+      "failed": 0,
+      "total": 5
+    },
+    "without_skill": {
+      "pass_rate": 0.4,
+      "passed": 2,
+      "failed": 3,
+      "total": 5
+    }
+  },
+  "delta": {
+    "pass_rate_improvement": 0.6,
+    "additional_expectations_met": 3
+  },
+  "notes": "The skill-guided output correctly classified moderate anemia with the precise WHO threshold range, specified the exact therapeutic iron dose (120mg elemental iron daily), specified folic acid at 400mcg, and included a concrete hemoglobin recheck timeline. The without-skill output failed on anemia severity classification (no WHO grading), iron dose specificity (no mg stated), and folic acid dose (not specified). Both outputs mentioned dietary counseling and hemoglobin recheck, but the skill output was far more precise and actionable."
+}

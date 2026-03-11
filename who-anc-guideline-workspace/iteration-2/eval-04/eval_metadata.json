@@ -1,0 +1,12 @@
+{
+  "eval_id": 4,
+  "vignette": "vignette-04-hiv-positive.md",
+  "with_skill": {
+    "pass_count": 5,
+    "total": 5
+  },
+  "without_skill": {
+    "pass_count": 2,
+    "total": 5
+  }
+}

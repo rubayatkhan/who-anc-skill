@@ -1,0 +1,35 @@
+{
+  "expectations": [
+    {
+      "text": "Identified as ANC Contact 6 (36 weeks)",
+      "passed": true,
+      "evidence": "Note clearly states 'ANC Contact: 6 of 8 (scheduled at 36 weeks)' in the Patient Summary section."
+    },
+    {
+      "text": "Fetal presentation assessment included",
+      "passed": true,
+      "evidence": "Fetal presentation is explicitly assessed: 'Fetal presentation: Cephalic (confirmed by abdominal palpation)' in the Assessments Required section. Also noted in the assessment matrix as a Contact 6 requirement."
+    },
+    {
+      "text": "Birth preparedness and complication readiness counseled",
+      "passed": true,
+      "evidence": "Comprehensive 'Birth Preparedness and Complication Readiness' subsection under Counseling Topics covers delivery facility confirmation, transport plan, birth companion, packed bag, savings, and emergency contact numbers."
+    },
+    {
+      "text": "Breastfeeding counseling included",
+      "passed": true,
+      "evidence": "Dedicated 'Breastfeeding Counseling' subsection covers early initiation within 1 hour, exclusive breastfeeding for 6 months, positioning and attachment, common challenges, and references patient's prior successful breastfeeding experience."
+    },
+    {
+      "text": "Next contact at 38 weeks (Contact 7)",
+      "passed": true,
+      "evidence": "Next Contact section explicitly states: 'Scheduled at 38 weeks (Contact 7)' with preparation items listed."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  }
+}

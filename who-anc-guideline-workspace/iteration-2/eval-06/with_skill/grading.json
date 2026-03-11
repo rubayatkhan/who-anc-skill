@@ -1,0 +1,34 @@
+{
+  "eval_id": 6,
+  "config": "with_skill",
+  "results": [
+    {
+      "expectation": "Undernutrition/low BMI flagged as concern",
+      "pass": true,
+      "evidence": "BMI 17.6 kg/m2 explicitly flagged as underweight with MUAC 21.5 cm as borderline undernutrition. Dedicated 'Nutritional Assessment and Supplementation' section labels it a 'priority concern' and 'significant nutritional risk'."
+    },
+    {
+      "expectation": "Enhanced nutritional supplementation or counseling recommended",
+      "pass": true,
+      "evidence": "Balanced energy and protein supplementation explicitly recommended per WHO guidelines for undernourished populations. Detailed dietary counseling provided (protein-rich foods, iron-rich foods, fruits, vegetables, regular meals). Referral to food supplementation program included. Weight gain monitoring at every contact specified."
+    },
+    {
+      "expectation": "Tetanus toxoid vaccination schedule initiated (TT1 with schedule for TT2+)",
+      "pass": true,
+      "evidence": "TT1 explicitly initiated at this visit. TT2 scheduled in >=4 weeks. Goal of at least 2 doses before delivery stated. New vaccination card to be provided. Follows SKILL.md Section 3.7 logic for 0 prior doses."
+    },
+    {
+      "expectation": "Psychosocial support or adolescent-friendly services mentioned",
+      "pass": true,
+      "evidence": "Dedicated section on 'Psychosocial Support and Adolescent-Friendly Services'. PHQ-9 follow-up recommended. Referral to adolescent health corner at facility. School continuation support, community support groups, adolescent-friendly communication approaches, and confidentiality provisions all addressed."
+    },
+    {
+      "expectation": "Mild anemia identified and treated",
+      "pass": true,
+      "evidence": "Mild anemia explicitly classified (Hb 10.5 g/dL, WHO threshold 10.0-10.9). Iron 60 mg elemental daily prescribed with reasoning based on high-prevalence setting. Folic acid 0.4 mg daily. Dietary counseling for iron-rich foods. Deworming with albendazole planned after first trimester. Hemoglobin recheck in 4 weeks."
+    }
+  ],
+  "pass_count": 5,
+  "total": 5,
+  "pass_rate": "5/5"
+}

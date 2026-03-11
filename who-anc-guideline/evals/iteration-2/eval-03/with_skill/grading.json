@@ -1,0 +1,40 @@
+{
+  "expectations": [
+    {
+      "text": "Pre-eclampsia risk classified as HIGH (nulliparity + age >35 + BMI >30 + chronic hypertension)",
+      "passed": true,
+      "evidence": "Risk Classification section explicitly states 'Pre-eclampsia Prophylaxis Risk: HIGH' with detailed reasoning listing chronic hypertension as the high-risk factor alone being sufficient, plus nulliparity, age >=35 (38), BMI >30 (33.1), and family history of pre-eclampsia as additional moderate risk factors."
+    },
+    {
+      "text": "Aspirin 75mg daily recommended starting from 12 weeks",
+      "passed": true,
+      "evidence": "Aspirin section states: 'Aspirin: 75 mg daily -- START NOW (should ideally begin at 12 weeks; patient is at 14 weeks, still within the recommended window before 20 weeks). Continue until 36 weeks GA or delivery.' Explicitly references the 12-week ideal start and notes the patient is still within the acceptable window."
+    },
+    {
+      "text": "Calcium 1.5-2g daily recommended",
+      "passed": true,
+      "evidence": "Supplementation section states: 'Calcium: 1.5-2.0 g daily in 3 divided doses -- indicated due to HIGH pre-eclampsia risk. Space from iron supplements by >=2 hours.'"
+    },
+    {
+      "text": "Blood pressure monitoring frequency increased",
+      "passed": true,
+      "evidence": "Next Contact section states 'Consider more frequent contacts (every 2-4 weeks) given high-risk classification rather than standard 8-contact spacing.' Counseling section includes 'More frequent ANC contacts: Plan for compressed/intensified contact schedule given high-risk profile.' BP monitoring is also emphasized in the next contact preparation notes."
+    },
+    {
+      "text": "Proteinuria monitoring recommended",
+      "passed": true,
+      "evidence": "Next Contact section includes 'check for proteinuria development' as a preparation item. Counseling covers pre-eclampsia warning signs. The Hypertensive Status section notes 'No proteinuria or end-organ dysfunction signs present, so no evidence of superimposed pre-eclampsia at this time' -- establishing the baseline for ongoing monitoring."
+    },
+    {
+      "text": "Current BP (135/88) flagged as elevated but not in immediate danger range",
+      "passed": true,
+      "evidence": "Hypertensive Status section states: 'BP is elevated (135/88) in a patient with documented chronic hypertension' and 'BP is elevated but NOT in the severe range (not >=160/110).' The assessment box also marks it as 'elevated, chronic hypertension.'"
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6,
+    "pass_rate": 1.0
+  }
+}

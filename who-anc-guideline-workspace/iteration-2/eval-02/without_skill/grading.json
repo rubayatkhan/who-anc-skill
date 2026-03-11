@@ -1,0 +1,35 @@
+{
+  "expectations": [
+    {
+      "text": "Anemia classified as MODERATE (Hb 9.2 is in 7-9.9 range)",
+      "passed": false,
+      "evidence": "Output states 'The patient has anemia with a hemoglobin of 9.2 g/dL. This is below the normal pregnancy threshold of 11 g/dL.' It does not classify the anemia by severity (mild/moderate/severe) using WHO thresholds. The word 'moderate' does not appear."
+    },
+    {
+      "text": "Iron dose is 120mg elemental iron daily (therapeutic, not prophylactic)",
+      "passed": false,
+      "evidence": "Output says 'Start oral iron supplementation (ferrous sulfate) daily' without specifying a dose. No mention of 120mg elemental iron or therapeutic dosing. The recommendation is generic and non-specific."
+    },
+    {
+      "text": "Hemoglobin recheck recommended within 1-3 months",
+      "passed": true,
+      "evidence": "Output states 'Recheck hemoglobin at a follow-up visit' and 'Recheck hemoglobin at follow-up' under Follow-up. While the timing is vague (no specific interval stated), the next visit is at 20 weeks (~9 weeks away), which is within 1-3 months. Borderline pass — recheck is mentioned but timing is imprecise."
+    },
+    {
+      "text": "Dietary counseling on iron-rich foods mentioned",
+      "passed": true,
+      "evidence": "Output mentions 'Encourage iron-rich foods in diet (meat, beans, leafy greens)' and 'Counsel on increasing protein and iron-rich food intake.' Dietary counseling is present though less detailed than the with_skill version."
+    },
+    {
+      "text": "Folic acid 400mcg daily recommended",
+      "passed": false,
+      "evidence": "Output says 'Folic acid supplementation daily' without specifying the dose of 400mcg (0.4mg). The dose is absent."
+    }
+  ],
+  "summary": {
+    "passed": 2,
+    "failed": 3,
+    "total": 5,
+    "pass_rate": 0.4
+  }
+}

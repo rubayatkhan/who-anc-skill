@@ -1,0 +1,29 @@
+{
+  "eval_id": 5,
+  "config": "with_skill",
+  "results": [
+    {
+      "expectation": "Identified as ANC Contact 3 (26 weeks)",
+      "pass": true,
+      "evidence": "Note states 'ANC Contact: 3 of 8 (scheduled at 26 weeks)' in Patient Summary, correctly mapping 26 weeks GA to Contact 3 per the skill's contact mapping rules (GA 23-27 weeks -> Contact 3)."
+    },
+    {
+      "expectation": "GDM screening recommended based on risk factors (BMI, family history, elevated glucose)",
+      "pass": true,
+      "evidence": "Note has a dedicated 'GDM risk: HIGH' section listing all risk factors: previous macrosomic infant (4.2 kg), family history of T2DM (first-degree relative), BMI 29.0 (overweight), random blood glucose 7.8 mmol/L (elevated), and trace glycosuria. GDM screening is flagged as a priority action."
+    },
+    {
+      "expectation": "Oral glucose tolerance test (OGTT) or equivalent mentioned",
+      "pass": true,
+      "evidence": "Note explicitly recommends '75g Oral Glucose Tolerance Test (OGTT) recommended within 1-2 weeks' with WHO diagnostic criteria (fasting 5.1-6.9, 1hr >=10.0, 2hr 8.5-11.0 mmol/L) and diabetes-in-pregnancy thresholds. Specifies fasting, 1-hour, and 2-hour measurements."
+    },
+    {
+      "expectation": "Dietary counseling for GDM prevention recommended",
+      "pass": true,
+      "evidence": "Note includes a dedicated 'Dietary Counseling for GDM Prevention — PRIORITY' section recommending: reduce refined sugars and sweetened beverages, reduce refined carbohydrates, balanced meals with vegetables/lean protein/complex carbs, portion control, and notes medical nutrition therapy if GDM confirmed."
+    }
+  ],
+  "pass_count": 4,
+  "total": 4,
+  "pass_rate": "4/4"
+}

@@ -1,0 +1,12 @@
+{
+  "eval_id": 3,
+  "vignette": "vignette-03-preeclampsia-high-risk.md",
+  "with_skill": {
+    "pass_count": 6,
+    "total": 6
+  },
+  "without_skill": {
+    "pass_count": 6,
+    "total": 6
+  }
+}

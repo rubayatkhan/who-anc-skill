@@ -1,0 +1,26 @@
+{
+  "eval_id": 12,
+  "vignette": "vignette-12-gestational-hypertension-evolving",
+  "vignette_title": "Gestational Hypertension - Evolving (Discrimination Test)",
+  "iteration": 2,
+  "date": "2026-03-11",
+  "with_skill": {
+    "pass_count": 8,
+    "total": 8,
+    "pass_rate": "8/8"
+  },
+  "without_skill": {
+    "pass_count": 2,
+    "total": 8,
+    "pass_rate": "2/8"
+  },
+  "delta": "+6 expectations met with skill",
+  "key_findings": [
+    "The skill correctly classified gestational hypertension using the exact WHO taxonomy, explicitly differentiating from pre-eclampsia and chronic hypertension",
+    "Without the skill, vague terminology was used ('pregnancy-induced hypertension', 'elevated BP') rather than the precise WHO classification",
+    "The skill produced twice-weekly BP monitoring and weekly proteinuria screening per WHO protocol; without skill, only weekly BP monitoring was recommended",
+    "Danger sign counseling was comprehensive with skill (headache, visual changes, epigastric pain, facial swelling, decreased FM); without skill, epigastric pain was omitted",
+    "IPTp-SP was a complete miss without the skill — only vague reference to 'malaria prophylaxis per local protocol' vs. specific dose tracking and eligibility assessment with the skill",
+    "This was designed as a discrimination test (gestational HTN vs pre-eclampsia) and the skill passed decisively by explicitly stating 'This is NOT pre-eclampsia' with reasoning"
+  ]
+}

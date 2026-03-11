@@ -1,0 +1,34 @@
+{
+  "eval_id": 7,
+  "config": "without_skill",
+  "results": [
+    {
+      "expectation": "Late booking explicitly acknowledged",
+      "pass": false,
+      "evidence": "The note mentions 'presenting late for antenatal care at 32 weeks' in passing within the Assessment section, but does not explicitly frame this as a late booking requiring catch-up protocol. There is no dedicated late booking alert, no mention of the WHO late booking logic, and no acknowledgment of missed contacts 1-4."
+    },
+    {
+      "expectation": "All Contact 1 baseline labs recommended (blood group, Rh, HIV, syphilis, hemoglobin)",
+      "pass": true,
+      "evidence": "Labs ordered include HIV rapid test, syphilis rapid test, blood group and Rh typing, urine dipstick, and random blood glucose. Hemoglobin was already obtained (11.5 g/dL). All five baseline labs are covered, though not framed as Contact 1 catch-up."
+    },
+    {
+      "expectation": "Ultrasound recommended even though beyond ideal window",
+      "pass": false,
+      "evidence": "The note mentions 'Consider ultrasound at district hospital for dating and growth assessment if transport can be arranged' under Referrals, but uses weak 'consider' language and does not explicitly acknowledge that it is beyond the ideal window while still being recommended. The recommendation lacks conviction and clinical rationale for why it is still valuable at 32 weeks."
+    },
+    {
+      "expectation": "Compressed remaining visit schedule outlined",
+      "pass": false,
+      "evidence": "The note only says 'Return at 34 weeks' and 'Plan to see patient every 2 weeks until delivery.' There is no structured compressed schedule, no mapping to WHO contact numbers, and no specific visit plan beyond a generic 2-week interval."
+    },
+    {
+      "expectation": "Birth preparedness emphasized given late presentation",
+      "pass": false,
+      "evidence": "Counseling section mentions 'Discussed importance of delivering at a health facility' and 'Reviewed warning signs' but this is generic and brief. There is no dedicated birth preparedness and complication readiness plan, no transport planning, no mention of birth companion, no emergency savings discussion, and the emphasis is not proportional to the urgency of a late-presenting patient."
+    }
+  ],
+  "pass_count": 1,
+  "total": 5,
+  "pass_rate": "1/5"
+}

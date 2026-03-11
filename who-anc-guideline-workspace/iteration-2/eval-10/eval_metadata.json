@@ -1,0 +1,31 @@
+{
+  "eval_id": 10,
+  "vignette": "vignette-10-danger-signs-severe-preeclampsia.md",
+  "title": "Danger Signs — Severe Pre-eclampsia (EMERGENCY)",
+  "patient": "Florence N., 31y, G3P2, 34 weeks",
+  "clinical_focus": "Severe pre-eclampsia with danger signs — emergency classification and management",
+  "iteration": 2,
+  "date": "2026-03-11",
+  "configs": {
+    "with_skill": {
+      "pass_count": 7,
+      "total": 7,
+      "pass_rate": "7/7"
+    },
+    "without_skill": {
+      "pass_count": 1,
+      "total": 7,
+      "pass_rate": "1/7"
+    }
+  },
+  "delta": "+6 expectations met with skill",
+  "key_observations": [
+    "Largest delta observed — skill transforms an understated note into a full emergency protocol",
+    "With_skill correctly classifies as 'pre-eclampsia with severe features' using exact WHO taxonomy; without_skill uses vague 'pre-eclampsia' and 'high blood pressure'",
+    "With_skill provides specific MgSO4 loading/maintenance doses and antihypertensive protocols with targets; without_skill hedges with 'consider' language and no dosing",
+    "With_skill explicitly suspends routine ANC; without_skill includes routine supplementation section in an emergency note",
+    "With_skill tone is unmistakably urgent with formatting emphasis; without_skill reads as moderate-concern clinic note",
+    "With_skill includes comprehensive monitoring parameters, toxicity signs, deterioration watch list; without_skill has minimal monitoring detail",
+    "Without_skill's 'delivery may be needed depending on how things progress' is dangerously understated for a condition where delivery is the definitive treatment"
+  ]
+}

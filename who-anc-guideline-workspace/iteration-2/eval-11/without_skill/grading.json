@@ -1,0 +1,57 @@
+{
+  "eval_id": 11,
+  "config": "without_skill",
+  "results": [
+    {
+      "expectation_id": 1,
+      "description": "Setting identified as malaria-endemic",
+      "met": true,
+      "evidence": "States 'Patient is in a malaria-endemic area' under the Malaria section, and location is identified as Siaya County, western Kenya."
+    },
+    {
+      "expectation_id": 2,
+      "description": "IPTp-SP first dose recommended (GA 22 weeks, eligible since >13 weeks)",
+      "met": true,
+      "evidence": "States 'She should receive intermittent preventive treatment with sulfadoxine-pyrimethamine (SP)' and 'This is her first eligible visit for IPTp since she was only 10 weeks at booking. Administer SP today.'"
+    },
+    {
+      "expectation_id": 3,
+      "description": "IPTp-SP specified as directly observed therapy (DOT) at the clinic",
+      "met": false,
+      "evidence": "The note says to 'Administer sulfadoxine-pyrimethamine (IPTp) — first dose today' but does NOT specify DOT administration or that the patient should take the tablets at the clinic under observation."
+    },
+    {
+      "expectation_id": 4,
+      "description": "Correct dose mentioned: sulfadoxine 500mg / pyrimethamine 25mg as single dose",
+      "met": false,
+      "evidence": "The note refers only to 'sulfadoxine-pyrimethamine (SP)' and 'sulfadoxine-pyrimethamine (IPTp)' without specifying the per-tablet dose (500mg/25mg), the number of tablets (3), or the total dose."
+    },
+    {
+      "expectation_id": 5,
+      "description": "ITN use reinforced (already provided at first contact)",
+      "met": true,
+      "evidence": "States 'She should also continue sleeping under her insecticide-treated bed net every night — counsel her about the importance of consistent use even on warm nights.' Also listed under counseling."
+    },
+    {
+      "expectation_id": 6,
+      "description": "Mild anemia identified (Hb 10.2, within 10-10.9 range)",
+      "met": true,
+      "evidence": "States 'Hemoglobin of 10.2 g/dL indicates mild anemia.' However, does not explicitly state the 10.0-10.9 range classification."
+    },
+    {
+      "expectation_id": 7,
+      "description": "Standard iron supplementation (30-60mg daily, not therapeutic dose)",
+      "met": true,
+      "evidence": "States 'Continue iron 60 mg and folic acid 0.4 mg daily' — this is the standard dose, not the therapeutic 120 mg dose. However, no explicit reasoning about why therapeutic dose is not needed."
+    },
+    {
+      "expectation_id": 8,
+      "description": "Next IPTp-SP dose scheduled at Contact 3 (26 weeks), >=1 month apart",
+      "met": false,
+      "evidence": "States 'Second dose of IPTp-SP will be due at next visit' and 'Next visit at approximately 26 weeks' but does not specify the >=1 month spacing requirement or frame it as 'Contact 3'."
+    }
+  ],
+  "pass_count": 5,
+  "total": 8,
+  "pass_rate": "5/8"
+}

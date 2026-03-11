@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "Output identifies this as ANC Contact 1 (first contact, <=12 weeks)",
+      "passed": true,
+      "evidence": "ANC Contact: 1 of 8 (scheduled at <=12 weeks)"
+    },
+    {
+      "text": "Iron supplementation recommended (either 30-60mg daily OR 60mg weekly intermittent based on population anemia prevalence)",
+      "passed": true,
+      "evidence": "Iron: 60mg elemental iron weekly (intermittent supplementation) — Population anemia prevalence is <40% in this setting, and patient is not anemic (Hb 12.1 g/dL). Per WHO guidelines for low anemia-prevalence populations, weekly intermittent iron supplementation is recommended."
+    },
+    {
+      "text": "Folic acid 400mcg daily recommended",
+      "passed": true,
+      "evidence": "Folic acid: 400mcg (0.4mg) daily throughout pregnancy."
+    },
+    {
+      "text": "Blood group, Rh factor, hemoglobin, HIV, syphilis tests listed as required assessments",
+      "passed": true,
+      "evidence": "Assessments section lists: Blood group & Rh: A Rh-positive, Hemoglobin: 12.1 g/dL, HIV test: Negative, Syphilis test (RPR): Non-reactive — all checked off as completed."
+    },
+    {
+      "text": "Pre-eclampsia risk classified as LOW",
+      "passed": true,
+      "evidence": "Pre-eclampsia prophylaxis risk: LOW — No high-risk factors... Does not meet threshold for moderate risk (requires >=2 moderate risk factors). No aspirin or calcium supplementation indicated."
+    },
+    {
+      "text": "Next contact scheduled at approximately 20 weeks",
+      "passed": true,
+      "evidence": "Scheduled at 20 weeks (Contact 2)"
+    },
+    {
+      "text": "No danger signs flagged",
+      "passed": true,
+      "evidence": "No Danger Signs section appears in the note (the template specifies it is only included if danger signs are present), and no danger signs are mentioned anywhere in the note."
+    },
+    {
+      "text": "Disclaimer about clinical judgment present",
+      "passed": true,
+      "evidence": "Disclaimer: This is a decision-support tool based on WHO ANC guidelines (2016 recommendations, DAK). Clinical judgment by a qualified healthcare provider is always required. This tool does not replace clinical assessment."
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  }
+}

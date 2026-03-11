@@ -1,0 +1,36 @@
+{
+  "eval_id": 7,
+  "vignette": "vignette-07-late-booking",
+  "title": "Late Booking -- First ANC at 32 Weeks",
+  "patient": "Amina D., 29y, G4P3, 32 weeks GA",
+  "key_clinical_features": [
+    "First ANC visit at 32 weeks (late booking)",
+    "No prior antenatal care this pregnancy",
+    "Three prior uncomplicated home deliveries with TBA",
+    "Rural setting, malaria-endemic, limited facility access",
+    "Normal vitals and hemoglobin, no complaints",
+    "Multiple baseline labs pending"
+  ],
+  "expectations": [
+    "Late booking explicitly acknowledged",
+    "All Contact 1 baseline labs recommended (blood group, Rh, HIV, syphilis, hemoglobin)",
+    "Ultrasound recommended even though beyond ideal window",
+    "Compressed remaining visit schedule outlined",
+    "Birth preparedness emphasized given late presentation"
+  ],
+  "results_summary": {
+    "with_skill": {
+      "pass_count": 5,
+      "total": 5,
+      "pass_rate": "5/5"
+    },
+    "without_skill": {
+      "pass_count": 1,
+      "total": 5,
+      "pass_rate": "1/5"
+    }
+  },
+  "delta": "+4 expectations met with skill",
+  "iteration": 2,
+  "date": "2026-03-11"
+}

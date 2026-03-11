@@ -1,0 +1,39 @@
+{
+  "eval_id": 3,
+  "config": "without_skill",
+  "results": [
+    {
+      "expectation": "Pre-eclampsia risk classified as HIGH (nulliparity + age >35 + BMI >30 + chronic hypertension)",
+      "grade": "PASS",
+      "reason": "Risk classified as 'high risk for pre-eclampsia' with all four factors enumerated: chronic hypertension, nulliparity, age 38, BMI 33.1, and family history."
+    },
+    {
+      "expectation": "Aspirin 75mg daily recommended starting from 12 weeks",
+      "grade": "PASS",
+      "reason": "Aspirin 75mg daily recommended for pre-eclampsia prophylaxis. Notes that ideally should have started at 12 weeks but starting at 14 weeks is still beneficial. Continue until 36 weeks."
+    },
+    {
+      "expectation": "Calcium 1.5-2g daily recommended",
+      "grade": "PASS",
+      "reason": "Calcium 1.5-2g daily in divided doses recommended, citing high-risk status and typical low dietary calcium intake in the region."
+    },
+    {
+      "expectation": "Blood pressure monitoring frequency increased",
+      "grade": "PASS",
+      "reason": "States BP to be checked at every ANC visit and explicitly notes 'more frequent visits than standard schedule' given the high-risk profile. Home BP monitoring also encouraged."
+    },
+    {
+      "expectation": "Proteinuria monitoring recommended",
+      "grade": "PASS",
+      "reason": "Urine dipstick for proteinuria at each visit explicitly recommended to monitor for superimposed pre-eclampsia."
+    },
+    {
+      "expectation": "Current BP (135/88) flagged as elevated but not in immediate danger range",
+      "grade": "PASS",
+      "reason": "BP 135/88 described as 'elevated but not at severe levels (below 160/110 threshold)' with no proteinuria or symptoms suggesting pre-eclampsia."
+    }
+  ],
+  "pass_count": 6,
+  "total": 6,
+  "pass_rate": "6/6"
+}

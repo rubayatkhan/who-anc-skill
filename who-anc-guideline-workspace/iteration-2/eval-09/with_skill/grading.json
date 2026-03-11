@@ -1,0 +1,49 @@
+{
+  "eval_id": 9,
+  "config": "with_skill",
+  "results": [
+    {
+      "expectation": "Moderate anemia classified (Hb 8.5 is in 7-9.9 range)",
+      "pass": true,
+      "detail": "Explicitly classified as 'MODERATE ANEMIA -- Hb 8.5 g/dL' with citation of '7.0-9.9 g/dL range' from WHO thresholds in Section 6. Declining trend documented (10.8 -> 9.6 -> 8.5)."
+    },
+    {
+      "expectation": "Therapeutic iron (120mg daily) recommended",
+      "pass": true,
+      "detail": "Recommended 'Switch to THERAPEUTIC dose -- 120mg elemental iron daily' with explicit reference to Section 3.1 moderate anemia protocol. Includes adherence counseling and 4-week recheck."
+    },
+    {
+      "expectation": "Pre-eclampsia risk classified as HIGH (nulliparity + BMI >30 + elevated BP + proteinuria)",
+      "pass": true,
+      "detail": "Classified as HIGH/MODERATE with >=2 moderate risk factors enumerated: nulliparity, BMI >30, family history pre-eclampsia, age approaching 35. Rising BP and proteinuria noted as elevating clinical concern. All key risk factors identified."
+    },
+    {
+      "expectation": "Aspirin 75mg recommended",
+      "pass": true,
+      "detail": "Aspirin 75mg daily explicitly recommended. Noted it should have been started at 12 weeks, flagged as missed intervention, recommended starting NOW with acknowledgment of reduced benefit after 20 weeks. Continue until 36 weeks."
+    },
+    {
+      "expectation": "Calcium 1.5-2g recommended",
+      "pass": true,
+      "detail": "Calcium 1.5-2g elemental daily in 3 divided doses recommended, with reference to Section 3.3 and high pre-eclampsia risk. Adherence reassessment included. Spacing from iron by >=2 hours noted."
+    },
+    {
+      "expectation": "Proteinuria flagged for monitoring and workup",
+      "pass": true,
+      "detail": "Dedicated 'Proteinuria Monitoring Plan' section. Progressive trend documented (negative -> trace -> +1). Repeat at every visit recommended, quantification (24-hour urine or protein:creatinine ratio) if persistent/worsening. Reclassification criteria stated."
+    },
+    {
+      "expectation": "Facility-based delivery plan recommended",
+      "pass": true,
+      "detail": "Explicitly states 'Facility-based delivery is MANDATORY' citing multiple risk factors (myomectomy with uterine scar, anemia, pre-eclampsia risk). Requires cesarean section and blood transfusion capability. Obstetrician consultation recommended."
+    },
+    {
+      "expectation": "Multiple risks result in more frequent monitoring schedule",
+      "pass": true,
+      "detail": "Dedicated 'Monitoring Schedule -- INCREASED FREQUENCY' section. Return in 2 weeks (instead of standard schedule) for BP, proteinuria, OGTT review. Hb recheck at 4 weeks. Continued increased surveillance recommended."
+    }
+  ],
+  "pass_count": 8,
+  "total": 8,
+  "pass_rate": "8/8"
+}

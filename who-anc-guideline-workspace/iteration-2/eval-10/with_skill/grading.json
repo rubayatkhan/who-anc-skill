@@ -1,0 +1,44 @@
+{
+  "eval_id": 10,
+  "config": "with_skill",
+  "results": [
+    {
+      "expectation": "DANGER SIGNS prominently flagged (not buried in routine assessment)",
+      "pass": true,
+      "rationale": "Note opens with '!!!!! DANGER SIGNS — EMERGENCY !!!!!' as the very first section, in bold with prominent formatting. Danger signs are listed in a table before any patient summary or routine content."
+    },
+    {
+      "expectation": "Classified specifically as PRE-ECLAMPSIA WITH SEVERE FEATURES (not just 'pre-eclampsia' or 'high blood pressure')",
+      "pass": true,
+      "rationale": "Explicitly classified as 'PRE-ECLAMPSIA WITH SEVERE FEATURES' with detailed rationale referencing the WHO taxonomy (Section 4a). Lists each qualifying severe feature: BP >=160/110, proteinuria, cerebral symptoms, epigastric pain. Also distinguishes from eclampsia by noting no seizures."
+    },
+    {
+      "expectation": "IMMEDIATE admission or referral to appropriate facility recommended",
+      "pass": true,
+      "rationale": "States 'ADMIT (facility has emergency obstetric capability, operating theater, blood bank, MgSO4, antihypertensives available)' and includes fallback: 'If facility cannot manage complications: stabilize then URGENT transfer to higher-level facility.' Explicitly states 'This patient MUST NOT be sent home.'"
+    },
+    {
+      "expectation": "Stabilization measures mentioned (magnesium sulfate for seizure prophylaxis, antihypertensive)",
+      "pass": true,
+      "rationale": "MgSO4 loading dose (4g IV + 10g IM) and maintenance (5g IM q4h or 1g/hr IV) specified with toxicity monitoring. Antihypertensives listed with specific agents (nifedipine 10mg, hydralazine 5mg IV, labetalol 20mg IV) and target BP range. Also includes corticosteroids, IV access, urinary catheter, fluid restriction, and lab orders."
+    },
+    {
+      "expectation": "BP 160/110 classified as severely elevated",
+      "pass": true,
+      "rationale": "BP 160/110 is explicitly labeled 'SEVERELY ELEVATED (>=160/110 threshold)' in the danger signs table and again in the hypertensive status section as 'severely elevated.'"
+    },
+    {
+      "expectation": "Output does NOT proceed with routine ANC assessment — emergency takes priority",
+      "pass": true,
+      "rationale": "Dedicated section 'DO NOT PROCEED WITH ROUTINE ANC' states: 'Routine ANC contact assessments (weight, routine counseling, birth preparedness discussion, next visit scheduling) are DEFERRED until the patient is stabilized.' Emergency management dominates the entire note structure."
+    },
+    {
+      "expectation": "Urgency is unmistakable in tone and formatting",
+      "pass": true,
+      "rationale": "Multiple exclamation marks in header, bold text throughout, 'IMMEDIATELY' used for MgSO4 and obstetrician call, 'START IMMEDIATELY' and 'FIRST DOSE NOW' for interventions, 'DO NOT DELAY' section header, explicit 'MUST NOT be sent home' statement. Monitoring table with frequencies conveys ongoing urgency."
+    }
+  ],
+  "pass_count": 7,
+  "total": 7,
+  "pass_rate": "7/7"
+}

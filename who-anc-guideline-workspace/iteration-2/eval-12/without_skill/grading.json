@@ -1,0 +1,49 @@
+{
+  "eval_id": 12,
+  "config": "without_skill",
+  "results": [
+    {
+      "expectation": "Classified as GESTATIONAL HYPERTENSION specifically (not pre-eclampsia, not just 'elevated BP')",
+      "pass": false,
+      "evidence": "Note uses vague terms: 'elevated blood pressure', 'pregnancy-related hypertension', 'pregnancy-induced hypertension'. Never uses the specific term 'gestational hypertension' as a formal classification. Uses deprecated/imprecise terminology."
+    },
+    {
+      "expectation": "Reasoning states: new-onset hypertension after 20 weeks + no proteinuria + no severe features",
+      "pass": false,
+      "evidence": "Partial reasoning present — mentions new onset after 20 weeks, negative protein, and no symptoms of severe disease. However, lacks structured diagnostic reasoning with all three criteria explicitly stated as a classification framework. Does not reference absence of end-organ dysfunction as a formal criterion."
+    },
+    {
+      "expectation": "Does NOT over-diagnose as pre-eclampsia (critical discrimination test)",
+      "pass": true,
+      "evidence": "Does not diagnose pre-eclampsia. However, the reason this passes is more by omission than by explicit discrimination — the note does not actively differentiate or explain why this is NOT pre-eclampsia."
+    },
+    {
+      "expectation": "Twice-weekly blood pressure monitoring recommended",
+      "pass": false,
+      "evidence": "Note says 'return in 1 week' for blood pressure follow-up — this is weekly, not twice-weekly. Does not meet the gestational hypertension monitoring standard."
+    },
+    {
+      "expectation": "Weekly proteinuria screening recommended (watching for progression to pre-eclampsia)",
+      "pass": false,
+      "evidence": "Note says 'Recheck urine protein at next visit' but does not establish weekly proteinuria screening as a protocol. No mention of serial monitoring for progression to pre-eclampsia."
+    },
+    {
+      "expectation": "Danger signs counseled — specifically headache, visual changes, epigastric pain as warning of pre-eclampsia progression",
+      "pass": false,
+      "evidence": "Note mentions 'headache, vision changes' as warning signs and to 'seek immediate care' but does NOT specifically mention epigastric pain. Also does not frame these as indicators of progression to pre-eclampsia — just general warning signs. Counseling is brief and not prioritized."
+    },
+    {
+      "expectation": "Delivery planning at 37 weeks if condition remains stable",
+      "pass": true,
+      "evidence": "Note states 'Consider delivery around 37-38 weeks if blood pressure remains controlled.' While slightly vague (37-38 rather than 37), it approximately meets the expectation."
+    },
+    {
+      "expectation": "IPTp-SP status addressed (malaria-endemic setting, should be on dose 3-4 by 32 weeks)",
+      "pass": false,
+      "evidence": "Note only vaguely says 'In endemic area, consider malaria prophylaxis as per local protocol.' Does not mention IPTp-SP by name, does not address dose number, does not note dose 4 is due, does not address whether gestational hypertension affects eligibility. Complete miss on specifics."
+    }
+  ],
+  "pass_count": 2,
+  "total": 8,
+  "pass_rate": "2/8"
+}

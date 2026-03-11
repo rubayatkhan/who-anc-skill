@@ -1,0 +1,34 @@
+{
+  "eval_id": 6,
+  "config": "without_skill",
+  "results": [
+    {
+      "expectation": "Undernutrition/low BMI flagged as concern",
+      "pass": true,
+      "evidence": "BMI 17.6 noted as 'below normal range' under 'Low Body Weight' section. Dietary advice and nutrition support referral mentioned. However, lacks WHO-specific framing (no MUAC interpretation, no mention of balanced energy/protein supplementation per WHO)."
+    },
+    {
+      "expectation": "Enhanced nutritional supplementation or counseling recommended",
+      "pass": false,
+      "evidence": "General dietary advice given ('increase caloric intake with a balanced diet') and referral to 'nutrition support services' mentioned, but no specific enhanced supplementation recommended. Missing: balanced energy and protein supplementation per WHO guidelines, food supplementation program referral, weight gain monitoring targets. Only generic advice provided."
+    },
+    {
+      "expectation": "Tetanus toxoid vaccination schedule initiated (TT1 with schedule for TT2+)",
+      "pass": false,
+      "evidence": "Note says 'Review tetanus immunization status and administer as needed per national schedule' — this is vague and deferred. TT1 is NOT initiated at this visit. No specific schedule for TT2 is mentioned. No vaccination card provision planned. This is a missed action."
+    },
+    {
+      "expectation": "Psychosocial support or adolescent-friendly services mentioned",
+      "pass": true,
+      "evidence": "Mental health concerns addressed with PHQ-2 result noted, counseling and emotional support recommended, follow-up screening mentioned. Social considerations section addresses school continuation and emotional support. However, no mention of adolescent-friendly services specifically, no referral to adolescent health corner, and no structured psychosocial pathway."
+    },
+    {
+      "expectation": "Mild anemia identified and treated",
+      "pass": true,
+      "evidence": "Hemoglobin 10.5 noted as 'mildly low' / 'mild anemia'. Iron supplementation and folic acid started. Iron-rich dietary advice given. However, folic acid dose is incorrectly stated as 5 mg (neural tube defect dose) instead of 0.4 mg standard. Iron dose not specified precisely. No deworming planned. No hemoglobin recheck timeline."
+    }
+  ],
+  "pass_count": 3,
+  "total": 5,
+  "pass_rate": "3/5"
+}

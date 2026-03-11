@@ -1,0 +1,22 @@
+{
+  "eval_id": 11,
+  "vignette": "vignette-11-malaria-endemic-setting.md",
+  "description": "Malaria-endemic setting — IPTp-SP protocol test. G2P1, 24 years, 22 weeks GA, Contact 2 in holoendemic P. falciparum area (Siaya County, Kenya). First IPTp-SP dose due, mild anemia (Hb 10.2), ITN reinforcement needed.",
+  "iteration": 2,
+  "date": "2026-03-11",
+  "expectations_count": 8,
+  "results": {
+    "with_skill": {
+      "pass_count": 8,
+      "total": 8,
+      "pass_rate": "8/8"
+    },
+    "without_skill": {
+      "pass_count": 5,
+      "total": 8,
+      "pass_rate": "5/8"
+    }
+  },
+  "skill_delta": "+3",
+  "notes": "The skill produced a comprehensive, protocol-compliant note with all 8 expectations met. Key differentiators: (1) DOT administration explicitly specified per SKILL.md Section 5a, (2) exact per-tablet dose (sulfadoxine 500mg/pyrimethamine 25mg) stated as required by SKILL.md, (3) >=1 month spacing and Contact 3 scheduling explicitly documented. The without_skill note correctly identified the malaria-endemic setting, recommended IPTp-SP, recognized mild anemia, and continued standard iron — but lacked DOT specification, precise dosing, and the explicit spacing rule."
+}

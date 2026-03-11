@@ -1,0 +1,57 @@
+{
+  "eval_id": 11,
+  "config": "with_skill",
+  "results": [
+    {
+      "expectation_id": 1,
+      "description": "Setting identified as malaria-endemic",
+      "met": true,
+      "evidence": "Patient Summary states 'Setting: Malaria-endemic (Siaya County, western Kenya — holoendemic Plasmodium falciparum transmission area)'. Risk classification also states 'Endemic area — IPTp-SP indicated'."
+    },
+    {
+      "expectation_id": 2,
+      "description": "IPTp-SP first dose recommended (GA 22 weeks, eligible since >13 weeks)",
+      "met": true,
+      "evidence": "Malaria Prevention section states 'IPTp-SP: DOSE 1 — GIVEN TODAY' and explains 'Patient is now 22 weeks GA, well past the 13-week eligibility threshold. She was ineligible at Contact 1 (10 weeks, first trimester).'"
+    },
+    {
+      "expectation_id": 3,
+      "description": "IPTp-SP specified as directly observed therapy (DOT) at the clinic",
+      "met": true,
+      "evidence": "Administration explicitly states 'Directly observed therapy (DOT) — patient takes all 3 tablets at the clinic under observation with clean drinking water, per facility protocol'."
+    },
+    {
+      "expectation_id": 4,
+      "description": "Correct dose mentioned: sulfadoxine 500mg / pyrimethamine 25mg as single dose",
+      "met": true,
+      "evidence": "Dose states 'Sulfadoxine 500 mg / Pyrimethamine 25 mg per tablet, given as 3 tablets in a single oral dose (total: sulfadoxine 1500 mg + pyrimethamine 75 mg)'."
+    },
+    {
+      "expectation_id": 5,
+      "description": "ITN use reinforced (already provided at first contact)",
+      "met": true,
+      "evidence": "ITN section states 'Already provided at Contact 1' and includes detailed counseling to 'Reinforce consistent nightly use' with practical strategies for hot nights."
+    },
+    {
+      "expectation_id": 6,
+      "description": "Mild anemia identified (Hb 10.2, within 10-10.9 range)",
+      "met": true,
+      "evidence": "Risk Classification states 'Mild anemia — Hb 10.2 g/dL (within 10.0-10.9 g/dL range; dropped from 11.0 g/dL at Contact 1)'."
+    },
+    {
+      "expectation_id": 7,
+      "description": "Standard iron supplementation (30-60mg daily, not therapeutic dose)",
+      "met": true,
+      "evidence": "Iron recommendation states 'Continue 30-60 mg elemental iron daily (standard prophylactic/mild anemia dose)' and explicitly notes 'does not require escalation to therapeutic 120 mg dose'."
+    },
+    {
+      "expectation_id": 8,
+      "description": "Next IPTp-SP dose scheduled at Contact 3 (26 weeks), >=1 month apart",
+      "met": true,
+      "evidence": "States 'Next IPTp-SP dose: Contact 3 at 26 weeks (>=1 month apart from today's dose).' Also listed under Next Contact preparations."
+    }
+  ],
+  "pass_count": 8,
+  "total": 8,
+  "pass_rate": "8/8"
+}

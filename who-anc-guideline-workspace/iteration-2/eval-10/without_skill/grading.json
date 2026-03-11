@@ -1,0 +1,44 @@
+{
+  "eval_id": 10,
+  "config": "without_skill",
+  "results": [
+    {
+      "expectation": "DANGER SIGNS prominently flagged (not buried in routine assessment)",
+      "pass": false,
+      "rationale": "No dedicated danger signs section. The note follows a standard SOAP-like structure with 'Presenting Complaints' listed after patient information. There is no prominent alert, no visual urgency markers, and no danger sign framework. The severity is mentioned in the assessment paragraph but not flagged at the top."
+    },
+    {
+      "expectation": "Classified specifically as PRE-ECLAMPSIA WITH SEVERE FEATURES (not just 'pre-eclampsia' or 'high blood pressure')",
+      "pass": false,
+      "rationale": "Assessment says 'consistent with pre-eclampsia' and mentions 'severity of the blood pressure readings' but never uses the specific term 'pre-eclampsia with severe features.' Also uses vague language like 'high blood pressure and proteinuria' rather than the precise WHO taxonomy classification."
+    },
+    {
+      "expectation": "IMMEDIATE admission or referral to appropriate facility recommended",
+      "pass": true,
+      "rationale": "Plan item 1 states 'Admit for monitoring and management.' However, the word 'immediate' is not used, and there is no fallback referral pathway if the facility cannot manage. Passing marginally since admission is recommended."
+    },
+    {
+      "expectation": "Stabilization measures mentioned (magnesium sulfate for seizure prophylaxis, antihypertensive)",
+      "pass": false,
+      "rationale": "Magnesium sulfate is listed but only as 'Consider magnesium sulfate given the severity of symptoms' — hedging language rather than definitive recommendation. No loading dose, no maintenance protocol, no toxicity monitoring parameters. Antihypertensives mentioned ('consider nifedipine or labetalol') but no doses, targets, or urgency. No corticosteroid dose specified. These are vague suggestions, not stabilization protocols."
+    },
+    {
+      "expectation": "BP 160/110 classified as severely elevated",
+      "pass": false,
+      "rationale": "BP is recorded in the vitals section as '160/110 mmHg' but is never classified or labeled as 'severely elevated.' The assessment mentions 'severity of the blood pressure readings' in passing but does not explicitly classify the BP level."
+    },
+    {
+      "expectation": "Output does NOT proceed with routine ANC assessment — emergency takes priority",
+      "pass": false,
+      "rationale": "The note includes a 'Routine ANC' section that discusses prenatal vitamins, iron/folic acid, tetanus vaccination, and next routine visit at 36 weeks. While it adds 'current situation takes priority,' the mere presence of routine ANC content in an emergency note dilutes the urgency and suggests the note treats this partly as a routine visit."
+    },
+    {
+      "expectation": "Urgency is unmistakable in tone and formatting",
+      "pass": false,
+      "rationale": "Tone is clinical but calm. Uses hedging language ('consider,' 'may be needed depending on how things progress'). No bold urgency markers, no 'IMMEDIATE' or 'EMERGENCY' labels, no exclamation formatting. 'Delivery may be needed depending on how things progress' is understated for a life-threatening condition. The note reads like a moderate-concern outpatient assessment rather than an obstetric emergency."
+    }
+  ],
+  "pass_count": 1,
+  "total": 7,
+  "pass_rate": "1/7"
+}

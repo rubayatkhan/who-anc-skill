@@ -1,0 +1,27 @@
+{
+  "eval_id": 8,
+  "vignette": "vignette-08-routine-third-trimester.md",
+  "title": "Routine Third Trimester — Normal Contact 6",
+  "date": "2026-03-11",
+  "iteration": 2,
+  "expectations": [
+    "Identified as ANC Contact 6 (36 weeks)",
+    "Fetal presentation assessment included",
+    "Birth preparedness and complication readiness counseled",
+    "Breastfeeding counseling included",
+    "Next contact at 38 weeks (Contact 7)"
+  ],
+  "results": {
+    "with_skill": {
+      "pass_count": 5,
+      "total": 5,
+      "pass_rate": "5/5"
+    },
+    "without_skill": {
+      "pass_count": 1,
+      "total": 5,
+      "pass_rate": "1/5"
+    }
+  },
+  "skill_delta": "+4 expectations met with skill vs without"
+}
